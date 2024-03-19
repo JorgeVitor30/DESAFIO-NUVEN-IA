@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Caches
+.cache/
+.dist/
+build/
+*.egg-info/
+
+# Distribution / packaging
+.Python
+env/
+venv/
+dist/
+bin/
+include/
+lib/
+lib64/
+
+# PyInstaller
+*.log
+*.spec
+
+# pipenv
+Pipfile.lock
+
+# Virtual environment
+vnev/
+.vpython/
+
+# Pyenv
+.python-version
+
+# FastAPI
+__pycache__/
+app/__pycache__/
+app/main/__pycache__/
+app/tests/__pycache__/
+logs/
+
+# Flask
+instance/
+.webassets-cache
+migrations/
+
+
+.idea
+
+.env
