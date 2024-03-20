@@ -16,6 +16,3 @@ class Regex:
         return [match.group(i) for i in range(1, len_group + 1)], None
       
     return [], 'Não encontrado'
-  
-  
-

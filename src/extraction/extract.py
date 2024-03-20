@@ -4,7 +4,7 @@ import pandas
 
 from PyPDF2 import PdfReader
 from src.extraction.regex import Regex
-from src.utils.functions.split_big_string import split_string, split_string2
+from src.utils.functions.split_big_string import split_string, split_string2, split_string3
 from src.utils.functions.remove_accent import remove_accent
 
 
@@ -90,7 +90,7 @@ class Extract:
         list_ativos = ativo_total.split(' ')
 
         if len(list_ativos) == 1:
-          ativo_total_atualizado, ativo_total_ultimo = split_string(ativo_total)
+          ativo_total_atualizado, ativo_total_ultimo = split_string3(ativo_total)
         else:
           ativo_total_atualizado = list_ativos[0]
           ativo_total_ultimo = list_ativos[1]
@@ -119,7 +119,6 @@ class Extract:
         dict_company['PatrimLiquidoUltimo'] = patrim_liquido_ultimo
         
         
-        #TODO VER A LÓGICA DESSES 2 CAMPOS
         # PATRIMONIO LIQUIDO ATRIBUIDO A CONTROLADORA
         content, error = rgx.match([r'patrimonio liquido atribuido a controladora\s*(.*?)\n'], 1)
         patrim_liq_controladora = error if error else content[0]
@@ -256,7 +255,7 @@ class Extract:
         list_ativs_invest_ult = ativ_invest_ult.replace('mais', '').split(' ')
         
         if len(list_ativs_invest_ult) == 1:
-          ativ_invest_ultimo = 0
+          ativ_invest_ultimo = '0'
         else:
           ativ_invest_ultimo = list_ativs_invest_ult[1]
         
