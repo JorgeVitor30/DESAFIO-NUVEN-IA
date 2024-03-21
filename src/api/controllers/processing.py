@@ -6,6 +6,7 @@ from src.utils.functions.open_pdf import opening_pdf_names
 from src.utils.functions.transform_csv import transform_csv
 from src.utils.functions.open_txt import verify_pdf_in_txt, escrever_arquivo_txt
 from src.utils.functions.adding_columns import adding_columns
+from src.api.controllers.processing_aux import fill_all_jsons_responses
 
 
 def processing_extract_to_training():
@@ -33,6 +34,9 @@ def processing_extract_to_training():
     
     # TRANSFORMAÇÃO PARA CSV
     transform_csv(infos)
-    
+  
+  # POPULAR OS JSONs
+  fill_all_jsons_responses()
+  
   return {
   "detail": "Extração das informações e treinamento do Bot concluída com sucesso"} 

@@ -1,0 +1,317 @@
+{
+  "intents": [
+    {
+      "tag": "Saudacao",
+      "patterns": [
+        "Oi",
+        "Opa",
+        "E aí",
+        "Como você está",
+        "Alguem ai",
+        "Olá",
+        "Ola",
+        "Bom dia",
+        "Boa tarde",
+        "Boa noite",
+        "Oi, tudo bem",
+        "Oi, como você está",
+        "Oi, como vai"
+      ],
+      "responses": [
+        "Oi, tudo bem? Em que posso ajudar?",
+        "Olá, Posso ajudar em algo",
+        "Oi, sou o assistente virtual da bolsa de valores, como posso ajudar?",
+        "Opa, de que forma ajudo você?"
+      ]
+    },
+    {
+      "tag": "Despedida",
+      "patterns": [
+        "Xau",
+        "Tchau",
+        "Até mais",
+        "Até logo",
+        "Até amanhã",
+        "Até a próxima",
+        "Até mais tarde",
+        "Até breve",
+        "Até mais ver"
+      ],
+      "responses": [
+        "Vejo você depois, Obrigado pela visita!",
+        "Tenha um bom dia",
+        "Xau! Volte sempre.",
+        "Na proxima, volte com mais dúvidas!"
+      ]
+    },
+    {
+      "tag": "Agradecimento",
+      "patterns": [
+        "Obrigado",
+        "Obrigado pela ajuda",
+        "Muito obrigado",
+        "Vlw",
+        "Obg",
+        "Obrigado por me ajudar"
+      ],
+      "responses": [
+        "Feliz em ajudar!",
+        "Estou a disposição!",
+        "Sempre que precisar, estarei aqui!"
+      ]
+    },
+    {
+      "tag": "Apresentacao",
+      "patterns": [
+        "Quem é você",
+        "Qual o seu nome",
+        "Como você se chama",
+        "Quem é voce",
+        "Qual o seu nome",
+        "Como você se chama",
+        "Qual o seu nome"
+      ],
+      "responses": [
+        "Sou o assistente virtual da bolsa de valores, como posso ajudar",
+        "Sou um ChatBot sobre informações da bolsa de valores, em que posso ajudar?"
+      ]
+    },
+    {
+      "tag": "Empresa_Mais_Acoes",
+      "patterns": [
+        "Qual a empresa com mais ações atualmente",
+        "Qual a empresa com mais ações",
+        "Qual a empresa com mais ações hoje",
+        "Qual a corretora com mais ações",
+        "Qual a corretora com mais ações atualmente",
+        "Qual a corretora com mais ações hoje",
+        "Qual a corretora com mais ações agora",
+        "Qual a corretora com mais ações no momento",
+        "Me diga a empresa com mais ações"
+      ],
+      "responses": [
+        "A empresa com mais ações é a PETROBRAS com 8268271696 ações.",
+        "A empresa que detêm mais ações é a PETROBRAS com 8268271696 ações."
+      ]
+    },
+    {
+      "tag": "Empresa_Menos_Acoes",
+      "patterns": [
+        "Qual a empresa com menos ações atualmente",
+        "Qual a empresa com menos ações",
+        "Qual a empresa com menos ações hoje",
+        "Qual a corretora com menos ações",
+        "Qual a corretora com menos ações atualmente",
+        "Qual a corretora com menos ações hoje",
+        "Qual a corretora com menos ações agora",
+        "Qual a corretora com menos ações no momento",
+        "Me diga a empresa com menos ações"
+      ],
+      "responses": [
+        "A empresa com menos ações é a ENGIE BRASIL com 255208461 ações.",
+        "A empresa que detêm menos ações é a ENGIE BRASIL com 255208461 ações."
+      ]
+    },
+    {
+      "tag": "Empresa_Mais_Investidores",
+      "patterns": [
+        "Qual a empresa com mais investidores",
+        "Qual a empresa com mais investidores atualmente",
+        "Qual a empresa com mais investidores",
+        "Qual a empresa com mais investidores hoje",
+        "Qual a corretora com mais investidores",
+        "Qual a corretora com mais investidores atualmente",
+        "Qual a corretora com mais investidores hoje",
+        "Qual a corretora com mais investidores agora",
+        "Qual a corretora com mais investidores no momento",
+        "Me diga a empresa com mais investidores"
+      ],
+      "responses": [
+        "A empresa com mais investidores é a TIM (TIMS3) com 1488716 investidores.",
+        "A empresa que detêm mais investidores é a TIM (TIMS3) com 1488716 investidores."
+      ]
+    },
+    {
+      "tag": "Empresa_Mais_Investidores_PFisica",
+      "patterns": [
+        "Qual a empresa com mais pessoas físicas investindo atualmente",
+        "Qual a empresa com mais pessoas físicas investindo",
+        "Qual a empresa com mais pessoas físicas investindo hoje",
+        "Qual a empresa com mais pessoas físicas como investidores",
+        "Qual a empresa com mais pessoas fisicas como investidoras",
+        "Qual a empresa com maior número de pessoas fisicas investindo",
+        "Qual a corretora com mais pessoas físicas investindo",
+        "Qual a corretora com mais pessoas físicas investindo atualmente",
+        "Qual a corretora com mais pessoas físicas investindo hoje",
+        "Qual a corretora com maior número de pessoas fisicas investindo",
+        "Me diga a empresa com mais pessoas físicas investindo"
+      ],
+      "responses": [
+        "A empresa com mais investidores (Pessoa Física) é a TIM com 1259476 investidores.",
+        "A empresa que detêm mais investidores (Pessoa Física) é a TIM com 1259476 investidores."
+      ]
+    },
+    {
+      "tag": "Empresa_Mais_Investidores_PJuridica",
+      "patterns": [
+        "Qual a empresa com mais pessoas jurídicas investindo atualmente",
+        "Qual a empresa com mais pessoas jurídicas investindo",
+        "Qual a empresa com mais pessoas jurídicas investindo hoje",
+        "Qual a empresa com mais pessoas juridicas como investidores",
+        "Qual a empresa com mais pessoas juridicas como investidoras",
+        "Qual a empresa com maior número de pessoas jurídicas investindo",
+        "Qual a corretora com mais pessoas jurídicas investindo",
+        "Qual a corretora com mais pessoas jurídicas investindo atualmente",
+        "Qual a corretora com mais pessoas juridicas investindo hoje",
+        "Qual a corretora com mais investidores agora",
+        "Qual a corretora com mais investidores no momento",
+        "Qual a corretora com maior número de pessoas juridicas investindo",
+        "Me diga a empresa com mais pessoas jurídicas investindo"
+      ],
+      "responses": [
+        "A empresa com mais investidores (Pessoa Jurídica) é a TIM com 229157 investidores.",
+        "A empresa que detêm mais investidores (Pessoa Jurídica) é a TIM com 229157 investidores."
+      ]
+    },
+    {
+      "tag": "Empresa_Mais_Investidores_Institucionais",
+      "patterns": [
+        "Qual a empresa com mais investidores institucionais atualmente",
+        "Qual a empresa com mais investidores institucionais",
+        "Qual a empresa com mais investidores institucionais hoje",
+        "Qual a empresa com mais investidores institucionais no momento",
+        "Qual a corretora com mais investidores institucionais",
+        "Qual a corretora com mais investidores institucionais atualmente",
+        "Qual a corretora com mais investidores institucionais hoje",
+        "Qual a corretora com mais investidores institucionais no momento"
+      ],
+      "responses": [
+        "A empresa com mais investidores institucionais é a PETROBRAS com 2748 investidores.",
+        "A empresa que detêm mais investidores institucionais é a PETROBRAS com 2748 investidores."
+      ]
+    },
+    {
+      "tag": "Todas_Empresas",
+      "patterns": [
+        "Quais são as empresas listadas",
+        "Me diga todas as empresas",
+        "Quais são as empresas disponíveis",
+        "Quais são as empresas disponíveis para investir",
+        "Quais são as empresas disponíveis para investir hoje",
+        "Quais são as corretoras listadas",
+        "Quais são as corretoras disponíveis",
+        "Quais são as corretoras disponíveis para investir",
+        "Quais são as corretoras disponíveis para investir hoje",
+        "Liste todas as corretoras",
+        "Liste todas as empresas"
+      ],
+      "responses": [
+        "\nAqui está a lista de todas as empresas no Banco de Dados\n\n- AMBEV S/A\n- AZUL\n- BRASIL\n- BRADESCO\n- BBSEGURIDADE\n- BRASKEM\n- CIELO\n- COPEL\n- ENGIE BRASIL\n- ELETROBRAS\n- HAPVIDA\n- IGUATEMI S.A\n- ITAUUNIBANCO\n- MAGAZ LUIZA\n- PETROBRAS\n- PETZ\n- TAESA\n- TIM\n- VALE\n- VAMOS"
+      ]
+    },
+    {
+      "tag": "Empresa_Mais_Capital_Social",
+      "patterns": [
+        "Qual a empresa com mais capital social atualmente",
+        "Qual a empresa com mais capital social",
+        "Qual a empresa com mais capital social hoje",
+        "Qual a corretora com mais capital social",
+        "Qual a corretora com mais capital social atualmente",
+        "Qual a corretora com mais capital social hoje",
+        "Qual a corretora com mais capital social agora",
+        "Me diga a empresa com mais capital social",
+        "Me diga a corretora com mais capital social",
+        "Me diga a empresa com maior capital social",
+        "Me diga a corretora com maior capital social"
+      ],
+      "responses": [
+        "A empresa com mais capital social é a AMBEV S/A com R$ 15.753.833.284,00",
+        "A empresa que detêm mais capital social é a AMBEV S/A com R$ 15.753.833.284,00"
+      ]
+    },
+    {
+      "tag": "Empresa_Mais_Patrimonio_Liquido",
+      "patterns": [
+        "Qual a empresa com mais patrimônio líquido atualmente",
+        "Qual a empresa com mais patrimônio líquido",
+        "Qual a empresa com mais patrimônio líquido hoje",
+        "Qual a corretora com mais patrimônio líquido",
+        "Qual a corretora com mais patrimônio líquido atualmente",
+        "Qual a corretora com mais patrimônio líquido hoje",
+        "Qual a corretora com mais patrimônio líquido agora",
+        "Me diga a empresa com mais patrimônio líquido",
+        "Me diga a corretora com mais patrimônio líquido",
+        "Me diga a empresa com maior patrimônio líquido",
+        "Me diga a corretora com maior patrimônio líquido",
+        "Me diga a empresa com maior patrimonio líquido",
+        "Me diga a corretora com maior patrimonio líquido",
+        "Qual a empresa com mais patrimonio líquido atualmente",
+        "Qual a corretora com mais patrimonio líquido atualmente",
+        "Qual a empresa com mais patrimonio liquido atualmente",
+        "Qual a corretora com mais patrimonio liquido atualmente",
+        "Qual a empresa com maior patrimonio liquido atualmente",
+        "Qual a corretora com maior patrimonio liquido atualmente",
+        "corretora com maior patrimonio liquido",
+        "corretora com mais patrimonio liquido"
+      ],
+      "responses": [
+        "A empresa com mais patrimônio líquido é a PETROBRAS com R$ 382.340.000,00",
+        "A corretora que detêm o maior patrimônio líquido é a PETROBRAS com R$ 382.340.000,00"
+      ]
+    },
+    {
+      "tag": "TOP3_Empresa_Maior_Evolucao_Resultado_Bruto",
+      "patterns": [
+        "Quais as 3 empresas com maior evolução no resultado bruto",
+        "Quais as 3 empresas com maior evolução no resultado bruto atualmente",
+        "Quais as 3 empresas com maior evolução no resultado bruto hoje",
+        "Quais as 3 empresas com maior evolução no resultado bruto nos últimos intervalos de tempo",
+        "Quais as 3 empresas com maior evolução no resultado bruto nos ultimos intervalos de tempo",
+        "Quais as 3 corretoras com maior evolução no resultado bruto nos últimos intervalos de tempo",
+        "Quais as 3 corretoras com maior evolução no resultado bruto",
+        "Quais as 3 corretoras com maior evolução no resultado bruto atualmente",
+        "Quais as 3 corretoras com maior evolução no resultado bruto hoje",
+        "Quais as 3 corretoras com maior evolução no resultado bruto nos últimos intervalos de tempo",
+        "Quais as 3 empresas com maior evolução no resultado bruto nos ultimos intervalos de tempo",
+        "Me diga as 3 empresas com maior evolução no resultado bruto",
+        "Me diga as 3 corretoras com maior evolução no resultado bruto",
+        "Me diga as 3 empresas com maior evolução no resultado bruto atualmente",
+        "Me diga as 3 corretoras com maior evolução no resultado bruto atualmente",
+        "Me diga as 3 empresas com maior crescimento no resultado bruto hoje",
+        "Me diga as 3 corretoras com maior crescimento no resultado bruto hoje"
+      ],
+      "responses": [
+        "\nAqui Estão 3 empresas com os melhores números de crescimento do Resultado Bruto\n\n1º - A empresa BRASIL (BBAS11) teve um crescimento de R$ 14.402.164,00 no resultado bruto.\n2º - A empresa ITAUUNIBANCO (ITUB3) teve um crescimento de R$ 9.984.000,00 no resultado bruto.\n3º - A empresa TIM (TIMS3) teve um crescimento de R$ 1.462.636,00 no resultado bruto."
+      ]
+    },
+    {
+      "tag": "TOP5_Empresa_Maior_Evolucao_Patrimonio_Liquido",
+      "patterns": [
+        "Quais as 5 empresas com maior evolução no patrimônio líquido",
+        "Quais as 5 empresas com maior evolução no patrimônio líquido atualmente",
+        "Quais as 5 empresas com maior evolução no patrimônio liquido hoje",
+        "Quais as 5 empresas com maior evolução no patrimônio líquido nos últimos intervalos de tempo",
+        "Quais as 5 empresas com maior evolução no patrimônio liquido nos ultimos intervalos de tempo",
+        "Quais as 5 corretoras com maior evolução no patrimônio líquido nos últimos intervalos de tempo",
+        "Quais as 5 corretoras com maior evolução no patrimônio líquido",
+        "Me diga as 5 empresas com maior evolução no patrimônio líquido",
+        "Me diga as 5 corretoras com maior evolução no patrimônio líquido",
+        "Me diga as 5 empresas com maior evolução no patrimônio liquido atualmente",
+        "Me diga as 5 corretoras com maior evolução no patrimônio liquido atualmente",
+        "Me diga as 5 empresas com maior crescimento no patrimonio liquido hoje",
+        "Me diga as 5 corretoras com maior crescimento no patrimonio liquido hoje",
+        "Me diga as 5 empresas com maior crescimento no patrimonio liquido hoje",
+        "Me diga as 5 corretoras com maior crescimento no patrimonio liquido hoje",
+        "Me diga as 5 empresas com melhor crescimento no patrimonio liquido hoje",
+        "Me diga as 5 corretoras com melhor crescimento no patrimonio liquido hoje",
+        "Me diga as empresas que tiveram a melhor evolução no patrimonio liquido",
+        "Me diga as corretoras que tiveram a melhor evolução no patrimonio liquido",
+        "Me diga as empresas que tiveram o melhor crescimento no patrimonio liquido",
+        "Me diga as corretoras que tiveram o melhor crescimento no patrimonio liquido"
+      ],
+      "responses": [
+        "\nAqui Estão 5 empresas com os melhores números de crescimento do Patrimônio Líquido\n\n1º - A empresa ITAUUNIBANCO (ITUB3) teve um crescimento de R$ 21.943.000,00 no patrimônio líquido.\n2º - A empresa PETROBRAS (PETR3) teve um crescimento de R$ 17.955.000,00 no patrimônio líquido.\n3º - A empresa BRASIL (BBAS11) teve um crescimento de R$ 9.798.907,00 no patrimônio líquido.\n4º - A empresa BRADESCO (BBDC3) teve um crescimento de R$ 6.919.226,00 no patrimônio líquido.\n5º - A empresa VALE (VALE3) teve um crescimento de R$ 3.431.000,00 no patrimônio líquido."
+      ]
+    }
+  ]
+}
