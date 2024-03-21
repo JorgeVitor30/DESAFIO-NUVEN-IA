@@ -19,7 +19,7 @@
       ],
       "responses": [
         "Oi, tudo bem? Em que posso ajudar?",
-        "Olá, Posso ajudar em algo",
+        "Olá, Posso ajudar em algo?",
         "Oi, sou o assistente virtual da bolsa de valores, como posso ajudar?",
         "Opa, de que forma ajudo você?"
       ]
@@ -72,7 +72,7 @@
         "Qual o seu nome"
       ],
       "responses": [
-        "Sou o assistente virtual da bolsa de valores, como posso ajudar",
+        "Sou o assistente virtual da bolsa de valores, como posso ajudar?",
         "Sou um ChatBot sobre informações da bolsa de valores, em que posso ajudar?"
       ]
     },

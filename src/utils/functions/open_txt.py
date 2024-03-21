@@ -18,3 +18,17 @@ def escrever_arquivo_txt(texto):
     
   except FileNotFoundError:
     return False
+
+
+def write_talking_txt(person, texto):
+  caminho_arquivo = 'talking_bot.txt'
+  
+  with open(caminho_arquivo, 'r') as arquivo:
+    arquivo = arquivo.read()
+  
+  try:
+    with open(caminho_arquivo, 'a') as arquivo:
+      arquivo.write(f" {person}: {texto}\n")
+      return True
+  except FileNotFoundError:
+    return False  

@@ -1,5 +1,6 @@
 PyPDF2
 fastapi[all]
+pydantic
 pandas
 numpy
 uvicorn
