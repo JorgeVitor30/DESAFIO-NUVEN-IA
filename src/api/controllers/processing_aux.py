@@ -126,3 +126,33 @@ def fill_all_jsons_responses():
     )
   
   json_utils.fill_json("TOP5_Empresa_Maior_Evolucao_Patrimonio_Liquido", [str_top5])
+  
+  
+  # CRIAR JSON COM TODAS AS EMPRESAS E SUAS INFORMAÇÕES
+  list_companies = return_all_companies_infos()
+  for company in list_companies:
+    dict_infos = dict()
+    
+    dict_infos['patterns'] = [f"Qual a situação da empresa {company[1]}?", f"Como está a empresa {company[1]}?", f"Me fale sobre a empresa {company[1]}", f"Fale da {company[1]}",
+    f"Qual a situação da empresa {company[1]}", f"Como está a empresa {company[1].lower()}", f"Me fale sobre a empresa {company[1].lower()}",f"Fale da {company[1].lower()}",
+    f"Qual a descrição do Ativo {company[1]}", f"Como está o ativo {company[1]}", f"Me fale sobre o ativo {company[1]}", f"Fale do ativo {company[1]}",
+    f"Qual a descrição do Ativo {company[1].lower()}", f"Como está o ativo {company[1].lower()}"]
+    
+    
+    dict_infos['responses'] = [f"""\nAqui estão as informações sobre a empresa atualizado na data: {company[0]}
+                               \n{company[1]} ({company[2]}):
+                               \n\t- CNPJ: {company[3]}
+                               \n\t- Site: {company[5]}
+                               \n\t- Ativo Imobilizado, Investimentos e intangível: {locale.currency(company[8], grouping=True)} (Atual)
+                               \n\t- Ativo Imobilizado, Investimentos e intangível: {locale.currency(company[9], grouping=True)} (Anterior)
+                               \n\t- Ativo Total: {locale.currency(company[10], grouping=True)} (Atual)
+                               \n\t- Ativo Total: {locale.currency(company[11], grouping=True)} (Anterior)
+                               \n\t- Lucro(Prejuízo) do Período: {locale.currency(company[20], grouping=True)} (Atual)
+                               \n\t- Lucro(Prejuízo) do Período: {locale.currency(company[21], grouping=True)} (Anterior)
+                               \n\t- Total Ações: {int(company[36])}
+                               \n\t- Total Investidores: {int(company[41])}
+                               \n\t- Patrimônio Líquido: {locale.currency(company[12], grouping=True)}
+                               \n\t- Composição do Capital: {locale.currency(company[40], grouping=True)}
+                               """]    
+    
+    json_utils.append_json(dict_infos, company[1])

@@ -2,6 +2,7 @@ import uvicorn
 from fastapi import APIRouter, Depends
 from fastapi import FastAPI
 from src.api.controllers.processing import processing_extract_to_training
+from src.api.controllers.bot import startint_bot
 
 
 router = APIRouter(
@@ -16,4 +17,4 @@ def process_training():
 
 @router.post("/bot")
 def process_question():
-  return {"details": "Hello World!"}
+  return startint_bot()
