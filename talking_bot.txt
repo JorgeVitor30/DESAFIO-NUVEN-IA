@@ -1,67 +1,6 @@
- Usuário: 
- Usuário: sair
- Usuário: olá
- ChatBot: ['olá']
- Usuário: como você está?
- Usuário: como você tá?
- Usuário: quem é você?
- ChatBot: ['quem', 'é', 'você', '?']
- Usuário: queria saber todos as empresas cadastradas
- ChatBot: ['queria', 'saber', 'todos', 'as', 'empresas', 'cadastradas']
- Usuário: entendi, me diga a empresa com mais investidores fisicos
- ChatBot: ['entendi', ',', 'me', 'diga', 'a', 'empresa', 'com', 'mais', 'investidores', 'fisicos']
- Usuário: entendi, me diga a empresa com mais investidores como pessoas fisicos
- ChatBot: ['entendi', ',', 'me', 'diga', 'a', 'empresa', 'com', 'mais', 'investidores', 'como', 'pessoas', 'fisicos']
- Usuário: entendi, me diga a empresa com mais pessoas fisicas de investidores
- ChatBot: ['entendi', ',', 'me', 'diga', 'a', 'empresa', 'com', 'mais', 'pessoas', 'fisicas', 'de', 'investidores']
- Usuário: entendi, me diga a empresa com mais pessoas juridica de investidores
- ChatBot: ['entendi', ',', 'me', 'diga', 'a', 'empresa', 'com', 'mais', 'pessoas', 'juridica', 'de', 'investidores']
- Usuário: entendi, me diga a empresa com mais pessoas juridica de investidores
- ChatBot: ['entendi', ',', 'me', 'diga', 'a', 'empresa', 'com', 'mais', 'pessoas', 'juridica', 'de', 'investidores']
- Usuário: e agora me diga a empresa com mais pessoas juridica de investidores
- ChatBot: ['e', 'agora', 'me', 'diga', 'a', 'empresa', 'com', 'mais', 'pessoas', 'juridica', 'de', 'investidores']
- Usuário: me fale sobre a tim
- ChatBot: ['me', 'fale', 'sobre', 'a', 'tim']
- Usuário: me dê detalhes da empresa vale
- Usuário: me dê detalhes da vale
- ChatBot: ['me', 'dê', 'detalhes', 'da', 'vale']
- Usuário: me dê detalhes da empresa vale
- Usuário: me dê detalhes da vale
- ChatBot: ['me', 'dê', 'detalhes', 'da', 'vale']
- Usuário: entend
- Usuário: me dê detalhes da vale
- ChatBot: ['me', 'dê', 'detalhes', 'da', 'vale']
- Usuário: me fale sobre a vale
- ChatBot: 
-Aqui estão as informações sobre a empresa atualizado na data: 14/03/2024
-                               
-VALE (VALE3):
-                               
-	- CNPJ: 33.592.510/0001-54
-                               
-	- Site: Não encontrado
-                               
-	- Ativo Imobilizado, Investimentos e intangível: R$ 299.672.000,00 (Atual)
-                               
-	- Ativo Imobilizado, Investimentos e intangível: R$ 297.274.000,00 (Anterior)
-                               
-	- Ativo Total: R$ 455.984.000,00 (Atual)
-                               
-	- Ativo Total: R$ 453.387.000,00 (Anterior)
-                               
-	- Lucro(Prejuízo) do Período: R$ 40.554.000,00 (Atual)
-                               
-	- Lucro(Prejuízo) do Período: R$ 96.337.000,00 (Anterior)
-                               
-	- Total Ações: 4448529763
-                               
-	- Total Investidores: 527087
-                               
-	- Patrimônio Líquido: R$ 198.325.000,00
-                               
-	- Composição do Capital: R$ 4.539.007.580,00
-                               
- Usuário: me liste todas as corretoras
+ Usuário: Olá boa noite
+ ChatBot: Oi, sou o assistente virtual da bolsa de valores, como posso ajudar?
+ Usuário: Cite todas as empresas
  ChatBot: 
 Aqui está a lista de todas as empresas no Banco de Dados
 
@@ -85,112 +24,36 @@ Aqui está a lista de todas as empresas no Banco de Dados
 - TIM
 - VALE
 - VAMOS
- Usuário: qual empresa tem mais ações??
- ChatBot: A empresa que detêm mais ações é a PETROBRAS com 8268271696 ações.
- Usuário: me fale sobre o iguatemi
- ChatBot: Desculpa, não entendi a pergunta... pode reformular?
- Usuário: me fale sobre a empresa iguatemi
- ChatBot: Tenha um bom dia
- Usuário: qual empresa tem mais ações??
- ChatBot: A empresa que detêm mais ações é a PETROBRAS com 8268271696 ações.
- Usuário: qual a situação da empresa iguatemi?
- ChatBot: Vejo você depois, Obrigado pela visita!
- Usuário: qual a situação da empresa iguatemi
- ChatBot: Xau! Volte sempre.
- Usuário: fale da iguatemi
- ChatBot: Tenha um bom dia
- Usuário: como está o ativo da vale
- ChatBot: Desculpa, não entendi a pergunta... pode reformular?
- Usuário: como está o ativo da empresa vale
- ChatBot: Desculpa, não entendi a pergunta... pode reformular?
- Usuário: como está o ativo da empresa vale
- ChatBot: Desculpa, não entendi a pergunta... pode reformular?
- Usuário: como está o ativo da empresa amvev
- ChatBot: Tenha um bom dia
- Usuário: como está o ativo da empresa ambev
- ChatBot: Tenha um bom dia
- Usuário: sair
- Usuário: olá boa noite
- ChatBot: Olá, Posso ajudar em algo?
- Usuário: quem é você?
- ChatBot: Sou o assistente virtual da bolsa de valores, como posso ajudar?
- Usuário: queria saber sobre a corretora do iguatemi
- ChatBot: Desculpa, não entendi a pergunta... pode reformular?
- Usuário: queria saber sobre a iguatemi
+ Usuário: fale melhor da hapvida
  ChatBot: 
 Aqui estão as informações sobre a empresa atualizado na data: 14/03/2024
                                
-IGUATEMI S.A (IGTI11):
+HAPVIDA (HAPV3):
                                
-	- CNPJ: 60.543.816/0001-93
+	- CNPJ: 05.197.443/0001-38
                                
-	- Site: ri.iguatemi.com.br
+	- Site: www.hapvida.com.br
                                
-	- Ativo Imobilizado, Investimentos e intangível: R$ 5.539.905,00 (Atual)
+	- Ativo Imobilizado, Investimentos e intangível: R$ 58.208.836,00 (Atual)
                                
-	- Ativo Imobilizado, Investimentos e intangível: R$ 5.493.036,00 (Anterior)
+	- Ativo Imobilizado, Investimentos e intangível: R$ 59.061.848,00 (Anterior)
                                
-	- Ativo Total: R$ 7.791.679,00 (Atual)
+	- Ativo Total: R$ 74.771.863,00 (Atual)
                                
-	- Ativo Total: R$ 8.048.137,00 (Anterior)
+	- Ativo Total: R$ 73.213.730,00 (Anterior)
                                
-	- Lucro(Prejuízo) do Período: R$ 308.934,00 (Atual)
+	- Lucro(Prejuízo) do Período: R$ 709.393,00 (Atual)
                                
-	- Lucro(Prejuízo) do Período: R$ 12.821,00 (Anterior)
+	- Lucro(Prejuízo) do Período: R$ 459.168,00 (Anterior)
                                
-	- Total Ações: 681067118
+	- Total Ações: 4455957762
                                
-	- Total Investidores: 57496
+	- Total Investidores: 50636
                                
-	- Patrimônio Líquido: R$ 4.177.518,00
+	- Patrimônio Líquido: R$ 49.123.078,00
                                
-	- Composição do Capital: R$ 1.224.809.778,00
+	- Composição do Capital: R$ 7.539.463.263,00
                                
- Usuário: queria saber sobre o iguatemi
- ChatBot: 
-Aqui estão as informações sobre a empresa atualizado na data: 14/03/2024
-                               
-IGUATEMI S.A (IGTI11):
-                               
-	- CNPJ: 60.543.816/0001-93
-                               
-	- Site: ri.iguatemi.com.br
-                               
-	- Ativo Imobilizado, Investimentos e intangível: R$ 5.539.905,00 (Atual)
-                               
-	- Ativo Imobilizado, Investimentos e intangível: R$ 5.493.036,00 (Anterior)
-                               
-	- Ativo Total: R$ 7.791.679,00 (Atual)
-                               
-	- Ativo Total: R$ 8.048.137,00 (Anterior)
-                               
-	- Lucro(Prejuízo) do Período: R$ 308.934,00 (Atual)
-                               
-	- Lucro(Prejuízo) do Período: R$ 12.821,00 (Anterior)
-                               
-	- Total Ações: 681067118
-                               
-	- Total Investidores: 57496
-                               
-	- Patrimônio Líquido: R$ 4.177.518,00
-                               
-	- Composição do Capital: R$ 1.224.809.778,00
-                               
- Usuário: qual a corretora com mais investidores?
- ChatBot: Desculpa, não entendi a pergunta... pode reformular?
- Usuário: qual a corretora com mais investidores no total?
- ChatBot: Desculpa, não entendi a pergunta... pode reformular?
- Usuário: qual o ativo com mais investidores no total?
- ChatBot: A empresa com mais investidores é a TIM (TIMS3) com 1488716 investidores.
- Usuário: entendi, e a com menos ações?
- ChatBot: A empresa com menos ações é a ENGIE BRASIL com 255208461 ações.
- Usuário: e com mais
- ChatBot: Oi, tudo bem? Em que posso ajudar?
- Usuário: qual empresa tem o maior capital social?
- ChatBot: A empresa que detêm mais capital social é a AMBEV S/A com R$ 15.753.833.284,00
- Usuário: e a que tem o maior patrimonio liquido?
- ChatBot: A corretora que detêm o maior patrimônio líquido é a PETROBRAS com R$ 382.340.000,00
- Usuário: sair
  Usuário: Liste todas as empresas
  ChatBot: 
 Aqui está a lista de todas as empresas no Banco de Dados
@@ -215,209 +78,35 @@ Aqui está a lista de todas as empresas no Banco de Dados
 - TIM
 - VALE
 - VAMOS
- Usuário: Liste todas as em12121212presas
- ChatBot: 
-Aqui está a lista de todas as empresas no Banco de Dados
-
-- AMBEV S/A
-- AZUL
-- BRASIL
-- BRADESCO
-- BBSEGURIDADE
-- BRASKEM
-- CIELO
-- COPEL
-- ENGIE BRASIL
-- ELETROBRAS
-- HAPVIDA
-- IGUATEMI S.A
-- ITAUUNIBANCO
-- MAGAZ LUIZA
-- PETROBRAS
-- PETZ
-- TAESA
-- TIM
-- VALE
-- VAMOS
- Usuário: ZZASASAS
- ChatBot: Não entendi a pergunta... pode reformular?
- Usuário: ZZASASAS
- ChatBot: Não entendi a pergunta... pode reformular?
- Usuário: ZZASASAS
- ChatBot: Não entendi a pergunta... pode reformular?
- Usuário: ZZASASAS
- ChatBot: Não entendi a pergunta... pode reformular?
- Usuário: ZZASASAS
- ChatBot: Não entendi a pergunta... pode reformular?
- Usuário: Me fale sobre a tim
+ Usuário: fale sobre a azul
+ ChatBot: Oi, sou o assistente virtual da bolsa de valores, como posso ajudar?
+ Usuário: fale sobre a empresa azul
  ChatBot: 
 Aqui estão as informações sobre a empresa atualizado na data: 14/03/2024
                                
-TIM (TIMS3):
+AZUL (AZUL4):
                                
-	- CNPJ: 02.421.421/0001-11
+	- CNPJ: 09.305.994/0001-29
                                
-	- Site: Não encontrado
+	- Site: www.voeazul.com.br
                                
-	- Ativo Imobilizado, Investimentos e intangível: R$ 39.487.668,00 (Atual)
+	- Ativo Imobilizado, Investimentos e intangível: R$ 11.234.848,00 (Atual)
                                
-	- Ativo Imobilizado, Investimentos e intangível: R$ 40.617.816,00 (Anterior)
+	- Ativo Imobilizado, Investimentos e intangível: R$ 10.932.160,00 (Anterior)
                                
-	- Ativo Total: R$ 55.260.156,00 (Atual)
+	- Ativo Total: R$ 19.605.095,00 (Atual)
                                
-	- Ativo Total: R$ 56.408.367,00 (Anterior)
+	- Ativo Total: R$ 18.721.293,00 (Anterior)
                                
-	- Lucro(Prejuízo) do Período: R$ 2.837.422,00 (Atual)
+	- Lucro(Prejuízo) do Período: R$ 2.327.619,00 (Atual)
                                
-	- Lucro(Prejuízo) do Período: R$ 1.670.755,00 (Anterior)
+	- Lucro(Prejuízo) do Período: R$ 1.828.420,00 (Anterior)
                                
-	- Total Ações: 808436195
+	- Total Ações: 634204716
                                
-	- Total Investidores: 1488716
+	- Total Investidores: 134204
                                
-	- Patrimônio Líquido: R$ 26.015.940,00
+	- Patrimônio Líquido: R$ 21.286.126,00
                                
-	- Composição do Capital: R$ 2.420.804.398,00
-                               
- Usuário: Me fale sobre a 121zxzxzxtim
- ChatBot: Vejo você depois, Obrigado pela visita!
- Usuário: Me fale sobre a 
- ChatBot: Xau! Volte sempre.
- Usuário: Me fale sobre a 
- ChatBot: Vejo você depois, Obrigado pela visita!
- Usuário: Me fale sobre a tim
- ChatBot: 
-Aqui estão as informações sobre a empresa atualizado na data: 14/03/2024
-                               
-TIM (TIMS3):
-                               
-	- CNPJ: 02.421.421/0001-11
-                               
-	- Site: Não encontrado
-                               
-	- Ativo Imobilizado, Investimentos e intangível: R$ 39.487.668,00 (Atual)
-                               
-	- Ativo Imobilizado, Investimentos e intangível: R$ 40.617.816,00 (Anterior)
-                               
-	- Ativo Total: R$ 55.260.156,00 (Atual)
-                               
-	- Ativo Total: R$ 56.408.367,00 (Anterior)
-                               
-	- Lucro(Prejuízo) do Período: R$ 2.837.422,00 (Atual)
-                               
-	- Lucro(Prejuízo) do Período: R$ 1.670.755,00 (Anterior)
-                               
-	- Total Ações: 808436195
-                               
-	- Total Investidores: 1488716
-                               
-	- Patrimônio Líquido: R$ 26.015.940,00
-                               
-	- Composição do Capital: R$ 2.420.804.398,00
-                               
- Usuário: qual empresa tem o maior patrimonio liquido
- ChatBot: A empresa com mais patrimônio líquido é a PETROBRAS com R$ 382.340.000,00
- Usuário: qual empresa tem a maior receita bruta
- ChatBot: Na proxima, volte com mais dúvidas!
- Usuário: qual empresa tem a maior receita bruta
- ChatBot: Na proxima, volte com mais dúvidas!
- Usuário: qual empresa tem o maior crescimento da receita bruta
- ChatBot: 
-Aqui estão as informações sobre a empresa atualizado na data: 14/03/2024
-                               
-BRADESCO (BBDC3):
-                               
-	- CNPJ: 60.746.948/0001-12
-                               
-	- Site: www.bradesco.com.br
-                               
-	- Ativo Imobilizado, Investimentos e intangível: R$ 33.225.155,00 (Atual)
-                               
-	- Ativo Imobilizado, Investimentos e intangível: R$ 30.770.935,00 (Anterior)
-                               
-	- Ativo Total: R$ 1.927.523.249,00 (Atual)
-                               
-	- Ativo Total: R$ 1.792.288.792,00 (Anterior)
-                               
-	- Lucro(Prejuízo) do Período: R$ 15.121.802,00 (Atual)
-                               
-	- Lucro(Prejuízo) do Período: R$ 20.732.172,00 (Anterior)
-                               
-	- Total Ações: 6647244393
-                               
-	- Total Investidores: 834463
-                               
-	- Patrimônio Líquido: R$ 161.182.449,00
-                               
-	- Composição do Capital: R$ 10.642.170.228,00
-                               
- Usuário: qual empresa tem o maior crescimento na receita bruta
- ChatBot: Não entendi a pergunta... pode reformular?
- Usuário: Olá boa noite
- ChatBot: Oi, tudo bem? Em que posso ajudar?
- Usuário: me diga a empresa com mais investidores
- ChatBot: A empresa com mais investidores é a TIM (TIMS3) com 1488716 investidores.
- Usuário: entendi, e a empresa com mais ações?
- ChatBot: A empresa com mais ações é a PETROBRAS com 8268271696 ações.
- Usuário: e a com menos ações?
- ChatBot: A empresa com menos ações é a ENGIE BRASIL com 255208461 ações.
- Usuário: liste 3 corretoras no quesito de melhor crescimento do patrimonio liquido
- ChatBot: 
-Aqui estão as informações sobre a empresa atualizado na data: 14/03/2024
-                               
-BRADESCO (BBDC3):
-                               
-	- CNPJ: 60.746.948/0001-12
-                               
-	- Site: www.bradesco.com.br
-                               
-	- Ativo Imobilizado, Investimentos e intangível: R$ 33.225.155,00 (Atual)
-                               
-	- Ativo Imobilizado, Investimentos e intangível: R$ 30.770.935,00 (Anterior)
-                               
-	- Ativo Total: R$ 1.927.523.249,00 (Atual)
-                               
-	- Ativo Total: R$ 1.792.288.792,00 (Anterior)
-                               
-	- Lucro(Prejuízo) do Período: R$ 15.121.802,00 (Atual)
-                               
-	- Lucro(Prejuízo) do Período: R$ 20.732.172,00 (Anterior)
-                               
-	- Total Ações: 6647244393
-                               
-	- Total Investidores: 834463
-                               
-	- Patrimônio Líquido: R$ 161.182.449,00
-                               
-	- Composição do Capital: R$ 10.642.170.228,00
-                               
- Usuário: liste 3 empresas no quesito de melhor crescimento do patrimonio liquido
- ChatBot: 
-Aqui estão as informações sobre a empresa atualizado na data: 14/03/2024
-                               
-BRADESCO (BBDC3):
-                               
-	- CNPJ: 60.746.948/0001-12
-                               
-	- Site: www.bradesco.com.br
-                               
-	- Ativo Imobilizado, Investimentos e intangível: R$ 33.225.155,00 (Atual)
-                               
-	- Ativo Imobilizado, Investimentos e intangível: R$ 30.770.935,00 (Anterior)
-                               
-	- Ativo Total: R$ 1.927.523.249,00 (Atual)
-                               
-	- Ativo Total: R$ 1.792.288.792,00 (Anterior)
-                               
-	- Lucro(Prejuízo) do Período: R$ 15.121.802,00 (Atual)
-                               
-	- Lucro(Prejuízo) do Período: R$ 20.732.172,00 (Anterior)
-                               
-	- Total Ações: 6647244393
-                               
-	- Total Investidores: 834463
-                               
-	- Patrimônio Líquido: R$ 161.182.449,00
-                               
-	- Composição do Capital: R$ 10.642.170.228,00
+	- Composição do Capital: R$ 1.264.712.854,00
                                

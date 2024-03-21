@@ -1,11 +1,8 @@
-from fastapi import FastAPI
-from src.api.routers.bot import router as router_question
-
-app = FastAPI()
-
-@app.get("/")
-def index():
-  return {"details": "Hello World!"}
+from src.interface.tkinter import ConversaGUI 
+import tkinter as tk
 
 
-app.include_router(router_question)
+if __name__ == "__main__":
+  root = tk.Tk()
+  app = ConversaGUI(root)
+  root.mainloop()

@@ -30,8 +30,6 @@ def chat_bot(sentence: str):
     model.load_state_dict(model_state)
     model.eval()
 
-    bot_name = " Bot assistente"
-
     write_talking_txt("Usuário", sentence)
 
     sentence = tokenize(sentence)
@@ -49,9 +47,7 @@ def chat_bot(sentence: str):
     if prob.item() >= 0.75:
         for intent in intents['intents']:
             if tag == intent["tag"]:
-                sleep(0.5)
                 answer = random.choice(intent['responses'])
-                print(f"{bot_name}: {answer}")
                 write_talking_txt("ChatBot", answer)
                 return {"Chatbot": answer}
     else:
