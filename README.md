@@ -12,6 +12,18 @@
 - FastAPI
 - Tkinter
 
+## Implementação do Projeto
+### *Extração das informações*: Usei a biblioteca PyPDF2, muito conhecida para esse tipo de solução proposto no desafio e implementei a raspagem das informações com REGEX junto de outras técnicas auxiliadoras.
+### *Treinamento do Bot*: Na parte do treinamento do modelo pro ChatBot usei bibliotecas como PyTorch (torch) , nltk e keras para que o treinamento seja feito de forma correta, implementei em base de documentações, artigos no medium e vídeos sobre o assunto.
+
+### Referências: 
+https://www.nltk.org <br> <br>
+https://medium.com/luizalabs/como-criar-um-chatbot-usando-aprendizado-profundo-e-python-47821402367 <br> <br>
+https://www.youtube.com/watch?v=1lwddP0KUEg&t=506s <br> <br>
+https://www.youtube.com/watch?v=RpWeNzfSUHw&t=1106s 
+
+
+
 ## Arquitetura do Projeto
 ![image](https://github.com/JorgeVitor30/DESAFIO-NUVEN-IA/assets/103287884/a47ef6ac-41e9-4587-810d-134b251755bc)
 
