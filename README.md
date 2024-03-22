@@ -16,11 +16,17 @@
 ![image](https://github.com/JorgeVitor30/DESAFIO-NUVEN-IA/assets/103287884/a47ef6ac-41e9-4587-810d-134b251755bc)
 
 
-#### **_api_**: Contém a lógica para extração, treinamento e uso do ChatBot.
+#### **_api_** : Contém a lógica para extração, treinamento e uso do ChatBot.
 #### **_extraction_**: Responsável pela extração de informações dos PDFs.
 #### **_robot_**: Onde ocorre o treinamento do bot.
 #### **_utils_**: Funções auxiliares em todo o projeto.
-#### **_interface_**: Interface de integração do sistema.
+#### **_interface_**: Interface de integração do sistema. <br> <br>
+
+## Arquivos Importantes
+#### **_output.csv_**: Arquivo csv com as informações extraídas dos PDFs.
+#### **_talking_bot.txt_**: Arquivo txt do diálogo do Usuário com o Bot.
+#### **_pdfs_registered.txt_**: Arquivo txt com o nome de todos os PDFs que foram extraídos. <br> <br>
+
 
 ## Pré-requisitos
 - python 
