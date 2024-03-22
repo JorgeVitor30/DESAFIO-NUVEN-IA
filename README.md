@@ -61,5 +61,11 @@ pip install -r requirements.txt
 **_OBS_**: O botão "Treinar" é para executar todo o processo de extração/tratamento dos pdf e o treinamento para o Bot. <br> <br>
 **_Caso queira treinar o bot: Apagar o arquivo "output.csv" e limpar o conteúdo do arquivo "pdfs_registered"_**
 
+## Exemplos de entradas:
+
+![image](https://github.com/JorgeVitor30/DESAFIO-NUVEN-IA/assets/103287884/17122dbd-6e38-412f-afb8-188dbe0526bf)
+
+
+
 
 
