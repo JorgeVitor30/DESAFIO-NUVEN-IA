@@ -10,6 +10,7 @@
 - Pandas / Numpy
 - PyPDF2
 - FastAPI
+- Tkinter
 
 ## Arquitetura do Projeto
 ![image](https://github.com/JorgeVitor30/DESAFIO-NUVEN-IA/assets/103287884/c32cc5c2-4280-47aa-bde1-00829c9efef9)
@@ -27,29 +28,25 @@
 #### 1. Clone o repositório do GitHub: https://github.com/JorgeVitor30/DESAFIO-NUVEN-IA.git
 
 ## Ambiente Windows
-#### Crie o ambiente virtual
+#### Crie e configure o ambiente virtual
 ```
 python -m venv venv
 ```
-#### Entre no ambiente virtual
 ```
 . .\venv\Scripts\activate 
 ````
-#### Baixe as bibliotecas
 ```
 pip install -r requirements.txt
 ```
 
 ## Ambiente Linux
-#### Crie o ambiente virtual
+#### Crie e configure o ambiente virtual
 ```
 python3 -m venv venv
 ```
-#### Entre no ambiente virtual
 ```
 source .\venv\Scripts\activate 
 ````
-#### Baixe as bibliotecas
 ```
 pip install -r requirements.txt
 ```
