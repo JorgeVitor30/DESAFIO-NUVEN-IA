@@ -4,6 +4,9 @@ import locale
 
 
 def fill_all_jsons_responses():
+  """
+  Função responsável por preencher todos os JSONs com as informações do .csv por meio de insights para popular as perguntas e respostas do ChatBot.
+  """
   locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
   json_utils = JsonUtils()
   

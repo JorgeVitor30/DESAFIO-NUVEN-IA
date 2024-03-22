@@ -11,6 +11,9 @@ from src.robot.train import train_bot
 
 
 def processing_extract_to_training():
+  """
+  Controller responsável por chamar as funções de extração dos PDFs e treinamento do Bot.
+  """
   nomes_arquivos_pdfs = opening_pdf_names()
 
   for nome in nomes_arquivos_pdfs:

@@ -2,6 +2,10 @@ import pandas as pd
 import numpy as np
 
 
+"""
+As funções retornam os dados do arquivo output.csv em forma de consultas, simulando um banco de dados em ambiente de produção.
+"""
+
 # RETORNAR TODAS A QUANTIDADE DE TODAS AÇÕES DOS PDFs
 def return_count_all_acoes():
   csv = pd.read_csv('output.csv', sep=';')

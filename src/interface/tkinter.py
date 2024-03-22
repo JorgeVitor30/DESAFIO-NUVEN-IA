@@ -8,6 +8,9 @@ import requests
 
 
 class ConversaGUI:
+  """"
+  Classe responsável por criar a interface gráfica da conversa com o ChatBot e Fazer a integração com a API.
+  """
   def __init__(self, root):
     self.root = root
     self.root.title("Conversa com ChatBot")
