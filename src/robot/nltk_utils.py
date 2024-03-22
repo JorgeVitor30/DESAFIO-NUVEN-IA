@@ -7,24 +7,24 @@ stemmer = PorterStemmer()
 
 def tokenize(sentence):
     """
-    split sentence into array of words/tokens
-    a token can be a word or punctuation character, or number
+    **Tokenização**
+    Dividir a frase em um array de palavras/ tokens. Um token pode ser uma palavra, um caractere de pontuação ou um número.
     """
     return nltk.word_tokenize(sentence)
 
 
 def stem(word):
     """
-    stemming = find the root form of the word
-    examples:
-    words = ["organize", "organizes", "organizing"]
-    words = [stem(w) for w in words]
-    -> ["organ", "organ", "organ"]
+    Stemming = encontrar a forma base da palavra
+    Exemplo: pegar verbos no passado e presente e transformá-los em sua forma base.
     """
     return stemmer.stem(word.lower())
 
 
 def bag_of_words(tokenized_sentence, words):
+    """"
+    Cria um vetor de palavras para representar a similaridade dos tokens com as palavras.
+    """
     sentence_words = [stem(word) for word in tokenized_sentence]
 
     bag = np.zeros(len(words), dtype=np.float32)

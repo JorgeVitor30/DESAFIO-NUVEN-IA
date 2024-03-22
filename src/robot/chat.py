@@ -44,7 +44,7 @@ def chat_bot(sentence: str):
 
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted.item()]
-    if prob.item() >= 0.75:
+    if prob.item() > 0.75:
         for intent in intents['intents']:
             if tag == intent["tag"]:
                 answer = random.choice(intent['responses'])
