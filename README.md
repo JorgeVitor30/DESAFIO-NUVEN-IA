@@ -19,7 +19,7 @@
 #### **_api_** : Contém a lógica para extração, treinamento e uso do ChatBot.
 #### **_extraction_**: Responsável pela extração de informações dos PDFs.
 #### **_robot_**: Onde ocorre o treinamento do bot.
-#### **_utils_**: Funções auxiliares em todo o projeto.
+#### **_utils_**: Funções e Arquivos auxiliares em todo o projeto.
 #### **_interface_**: Interface de integração do sistema. <br> <br>
 
 ## Arquivos Importantes
