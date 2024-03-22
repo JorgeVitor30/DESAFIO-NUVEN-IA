@@ -756,3 +756,31 @@ VALE (VALE3):
  ChatBot: Xau! Volte sempre.
  Usuário: açaí sushi suco batata
  ChatBot: Não entendi a pergunta... pode reformular?
+ Usuário: Olá boa noite
+ ChatBot: Oi, tudo bem? Em que posso ajudar?
+ Usuário: me liste todas as empresas
+ ChatBot: 
+Aqui está a lista de todas as empresas no Banco de Dados
+
+- AMBEV S/A
+- AZUL
+- BRASIL
+- BRADESCO
+- BBSEGURIDADE
+- BRASKEM
+- CIELO
+- COPEL
+- ENGIE BRASIL
+- ELETROBRAS
+- HAPVIDA
+- IGUATEMI S.A
+- ITAUUNIBANCO
+- MAGAZ LUIZA
+- PETROBRAS
+- PETZ
+- TAESA
+- TIM
+- VALE
+- VAMOS
+ Usuário: E a que tem o maior patrimonio liquido?
+ ChatBot: A corretora que detêm o maior patrimônio líquido é a PETROBRAS com R$ 382.340.000,00

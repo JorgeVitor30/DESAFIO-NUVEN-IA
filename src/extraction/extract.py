@@ -9,6 +9,10 @@ from src.utils.functions.remove_accent import remove_accent
 
 
 class Extract:
+  """
+  Classe para a extração de PDF
+  -> Retorna um dicionário com as informações relevantes vindas do PDF.
+  """
   def __init__(self, pdf: PdfReader):
     self.pdf = pdf
     self.pages = len(pdf.pages)

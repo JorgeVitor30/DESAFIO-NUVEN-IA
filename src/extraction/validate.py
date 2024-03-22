@@ -1,4 +1,8 @@
 class Validate:
+  """
+  Classe responsável por validar os dados extraídos do PDF.
+  Validações como: remover pontos, remover parenteses de números, tratar valores não informados e transformar strings em float e int estão nessa classe.
+  """
   def __init__(self, dict_pdf: dict):
     self.dict = dict_pdf
   
