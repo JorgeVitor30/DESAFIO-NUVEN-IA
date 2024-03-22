@@ -1,9 +1,6 @@
 from tkinter import ttk
-from fastapi import FastAPI
-from src.api.routers.bot import router as router_question
 import tkinter as tk
 import uvicorn
-import threading
 import requests
 
 
@@ -46,9 +43,6 @@ class ConversaGUI:
     self.botao = ttk.Button(self.root, text="Treinar", command=self.acao_botao)
     self.botao.place(relx=1, rely=0, anchor=tk.NE)
     
-    # RODAR A API
-    self.api_thread = threading.Thread(target=self.run_api)
-    self.api_thread.start()
 
     self.root.protocol("WM_DELETE_WINDOW", self.fechar_janela)
 
@@ -71,20 +65,9 @@ class ConversaGUI:
     # ROTA DE TRAIN CHATBOT
     response = requests.post("http://localhost:8000/desafio/training")
     
-  def run_api(self):
-    self.app = FastAPI()
-    
-    @self.app.get("/")
-    def index():
-      return {"details": "Hello World!"}
-    
-    self.app.include_router(router_question)
-    
-    uvicorn.run(self.app, host="0.0.0.0", port=8000)
   
   def fechar_janela(self):
-    # Encerrar a API antes de fechar a janela
-    self.api_thread.join()
+    # Encerrar a aplicação
     self.root.destroy()
   
   
