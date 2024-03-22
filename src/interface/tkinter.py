@@ -36,7 +36,7 @@ class ConversaGUI:
     
     
     self.entrada_var = tk.StringVar()
-    self.entrada_entry = ttk.Entry(self.root, textvariable=self.entrada_var)
+    self.entrada_entry = ttk.Entry(self.root, textvariable=self.entrada_var, width=100, font=("Arial", 12))
     self.entrada_entry.pack(fill=tk.BOTH)
     self.entrada_entry.bind("<Return>", self.enviar_mensagem)
     
