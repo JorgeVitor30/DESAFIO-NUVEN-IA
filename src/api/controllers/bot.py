@@ -7,8 +7,7 @@ def startint_bot(body: Question):
   try:
     return chat_bot(body.question)
   except Exception as e:
-    raise HTTPException(
-      status_code=status.HTTP_400_BAD_REQUEST,
-      detail=str(e)
-    )
+    return {
+      "Chatbot": f"{e}"
+    }
 
