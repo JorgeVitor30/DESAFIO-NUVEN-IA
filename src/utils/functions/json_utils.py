@@ -2,6 +2,10 @@ import pandas as pd
 import json
 
 class JsonUtils:
+  """
+  Classe para popular e adicionar os JSONs com as informações do .csv
+  -> Recebe strings e listas de strings para popular os JSONs.
+  """
   def __init__(self):
     pass
   

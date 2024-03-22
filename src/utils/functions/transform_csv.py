@@ -4,6 +4,9 @@ import os
 
 
 def transform_csv(dict_infos: dict) -> pd.DataFrame:
+  """
+  Função para transformar um dicionário em um DataFrame e salvar em um arquivo .csv.
+  """
   nome_arquivo = 'output.csv'
   
   if os.path.isfile(nome_arquivo):

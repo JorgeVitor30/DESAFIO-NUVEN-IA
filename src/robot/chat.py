@@ -10,6 +10,10 @@ from src.utils.functions.open_txt import write_talking_txt
 
 
 def chat_bot(sentence: str):
+    """
+    A função do ChatBot recebe uma pergunta e retorna uma resposta.
+    Faz a similaridade da tokenização da pergunta com as palavras do modelo treinado.
+    """
 
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 

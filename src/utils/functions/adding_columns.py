@@ -2,6 +2,9 @@ import pandas as pd
 
 
 def adding_columns(df: pd.DataFrame):
+  """
+  Função para adicionar colunas ao DataFrame em base de outras colunas.
+  """
   # Coluna TotalInvests
   df['TotalInvests'] = int(df['InvestPFisicas'] + df['InvestPJuridicas'] + df['InvestInstitucionais'])
   
