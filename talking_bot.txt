@@ -1,0 +1,126 @@
+ Usuário: Olá boa noite
+ ChatBot: Oi, tudo bem? Em que posso ajudar?
+ Usuário: Quem é você?
+ ChatBot: Sou um ChatBot sobre informações da bolsa de valores, em que posso ajudar?
+ Usuário: queria saber todas as empresas cadastradas
+ ChatBot: 
+Aqui está a lista de todas as empresas no Banco de Dados
+
+- AMBEV S/A
+- AZUL
+- BRASIL
+- BRADESCO
+- BBSEGURIDADE
+- BRASKEM
+- CIELO
+- COPEL
+- ENGIE BRASIL
+- ELETROBRAS
+- HAPVIDA
+- IGUATEMI S.A
+- ITAUUNIBANCO
+- MAGAZ LUIZA
+- PETROBRAS
+- PETZ
+- TAESA
+- TIM
+- VALE
+- VAMOS
+ Usuário: Me diga a empresa com mais investidores
+ ChatBot: A empresa com mais investidores é a TIM (TIMS3) com 1488716 investidores.
+ Usuário: qual empresa com mais ações atualmente?
+ ChatBot: A empresa que detêm mais ações é a PETROBRAS com 8268271696 ações.
+ Usuário: entendi, e a empresa com menos ações?
+ ChatBot: A empresa que detêm menos ações é a ENGIE BRASIL com 255208461 ações.
+ Usuário: e a empresa que tem o maior patrimonio liquido?
+ ChatBot: A corretora que detêm o maior patrimônio líquido é a PETROBRAS com R$ 382.340.000,00
+ Usuário: Quais as 3 empresas com a maior evolução no resultado bruto?
+ ChatBot: 
+Aqui Estão 3 empresas com os melhores números de crescimento do Resultado Bruto
+
+1º - A empresa BRASIL (BBAS11) teve um crescimento de R$ 14.402.164,00 no resultado bruto.
+2º - A empresa ITAUUNIBANCO (ITUB3) teve um crescimento de R$ 9.984.000,00 no resultado bruto.
+3º - A empresa TIM (TIMS3) teve um crescimento de R$ 1.462.636,00 no resultado bruto.
+ Usuário: então cite as empresas com os melhores crescimentos do patrimonio liquido
+ ChatBot: 
+Aqui Estão 5 empresas com os melhores números de crescimento do Patrimônio Líquido
+
+1º - A empresa ITAUUNIBANCO (ITUB3) teve um crescimento de R$ 21.943.000,00 no patrimônio líquido.
+2º - A empresa PETROBRAS (PETR3) teve um crescimento de R$ 17.955.000,00 no patrimônio líquido.
+3º - A empresa BRASIL (BBAS11) teve um crescimento de R$ 9.798.907,00 no patrimônio líquido.
+4º - A empresa BRADESCO (BBDC3) teve um crescimento de R$ 6.919.226,00 no patrimônio líquido.
+5º - A empresa VALE (VALE3) teve um crescimento de R$ 3.431.000,00 no patrimônio líquido.
+ Usuário: Me conte detalhes da empresa vamos
+ ChatBot: 
+Aqui estão as informações sobre a empresa atualizado na data: 14/03/2024
+                               
+VAMOS (VAMO3):
+                               
+	- CNPJ: 23.373.000/0001-32
+                               
+	- Site: http://www.grupovamos.com.br/
+                               
+	- Ativo Imobilizado, Investimentos e intangível: R$ 13.271.083,00 (Atual)
+                               
+	- Ativo Imobilizado, Investimentos e intangível: R$ 12.250.835,00 (Anterior)
+                               
+	- Ativo Total: R$ 19.219.164,00 (Atual)
+                               
+	- Ativo Total: R$ 16.675.416,00 (Anterior)
+                               
+	- Lucro(Prejuízo) do Período: R$ 391.527,00 (Atual)
+                               
+	- Lucro(Prejuízo) do Período: R$ 414.354,00 (Anterior)
+                               
+	- Total Ações: 314724970
+                               
+	- Total Investidores: 1715
+                               
+	- Patrimônio Líquido: R$ 4.878.781,00
+                               
+	- Composição do Capital: R$ 1.104.324.569,00
+                               
+ Usuário: me conte detalhes da empresa tim
+ ChatBot: 
+Aqui estão as informações sobre a empresa atualizado na data: 14/03/2024
+                               
+TIM (TIMS3):
+                               
+	- CNPJ: 02.421.421/0001-11
+                               
+	- Site: Não encontrado
+                               
+	- Ativo Imobilizado, Investimentos e intangível: R$ 39.487.668,00 (Atual)
+                               
+	- Ativo Imobilizado, Investimentos e intangível: R$ 40.617.816,00 (Anterior)
+                               
+	- Ativo Total: R$ 55.260.156,00 (Atual)
+                               
+	- Ativo Total: R$ 56.408.367,00 (Anterior)
+                               
+	- Lucro(Prejuízo) do Período: R$ 2.837.422,00 (Atual)
+                               
+	- Lucro(Prejuízo) do Período: R$ 1.670.755,00 (Anterior)
+                               
+	- Total Ações: 808436195
+                               
+	- Total Investidores: 1488716
+                               
+	- Patrimônio Líquido: R$ 26.015.940,00
+                               
+	- Composição do Capital: R$ 2.420.804.398,00
+                               
+ Usuário: qual empresa tem o maior capital social?
+ ChatBot: A empresa que detêm mais capital social é a AMBEV S/A com R$ 15.753.833.284,00
+ Usuário: me diga a empresa com mais investidores?
+ ChatBot: A empresa com mais investidores é a TIM (TIMS3) com 1488716 investidores.
+ Usuário: qual a empresa com mais pessoas fisicas de investidores
+ ChatBot: A empresa que detêm mais investidores (Pessoa Física) é a TIM com 1259476 investidores.
+ Usuário: e a empresa com mais pessoas juridicas investindo?
+ ChatBot: A empresa que detêm mais investidores (Pessoa Jurídica) é a TIM com 229157 investidores.
+ Usuário: e por último a empresa com mais investidores institucionais?
+ ChatBot: A empresa com mais investidores institucionais é a PETROBRAS com 2748 investidores.
+ Usuário: Xau
+ ChatBot: Vejo você depois, Obrigado pela visita!
+ Usuário: açaí sushi suco batata
+ ChatBot: Não entendi a pergunta... pode reformular?

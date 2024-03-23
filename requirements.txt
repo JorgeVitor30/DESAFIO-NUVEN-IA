@@ -1,0 +1,9 @@
+PyPDF2
+fastapi[all]
+pydantic
+pandas
+numpy
+uvicorn
+keras
+torch
+nltk

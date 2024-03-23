@@ -1,0 +1,708 @@
+{
+  "intents": [
+    {
+      "tag": "Saudacao",
+      "patterns": [
+        "Oi",
+        "Opa",
+        "E aí",
+        "Como você está",
+        "Alguem ai",
+        "Olá",
+        "Ola",
+        "Bom dia",
+        "Boa tarde",
+        "Boa noite",
+        "Oi, tudo bem",
+        "Oi, como você está",
+        "Oi, como vai"
+      ],
+      "responses": [
+        "Oi, tudo bem? Em que posso ajudar?",
+        "Olá, Posso ajudar em algo?",
+        "Oi, sou o assistente virtual da bolsa de valores, como posso ajudar?",
+        "Opa, de que forma ajudo você?"
+      ]
+    },
+    {
+      "tag": "Despedida",
+      "patterns": [
+        "Xau",
+        "Tchau",
+        "Até mais",
+        "Até logo",
+        "Até amanhã",
+        "Até a próxima",
+        "Até mais tarde",
+        "Até breve",
+        "Até mais ver"
+      ],
+      "responses": [
+        "Vejo você depois, Obrigado pela visita!",
+        "Tenha um bom dia",
+        "Xau! Volte sempre.",
+        "Na proxima, volte com mais dúvidas!"
+      ]
+    },
+    {
+      "tag": "Agradecimento",
+      "patterns": [
+        "Obrigado",
+        "Obrigado pela ajuda",
+        "Muito obrigado",
+        "Vlw",
+        "Obg",
+        "Obrigado por me ajudar"
+      ],
+      "responses": [
+        "Feliz em ajudar!",
+        "Estou a disposição!",
+        "Sempre que precisar, estarei aqui!"
+      ]
+    },
+    {
+      "tag": "Apresentacao",
+      "patterns": [
+        "Quem é você",
+        "Qual o seu nome",
+        "Como você se chama",
+        "Quem é voce",
+        "Qual o seu nome",
+        "Como você se chama",
+        "Qual o seu nome"
+      ],
+      "responses": [
+        "Sou o assistente virtual da bolsa de valores, como posso ajudar?",
+        "Sou um ChatBot sobre informações da bolsa de valores, em que posso ajudar?"
+      ]
+    },
+    {
+      "tag": "Empresa_Mais_Acoes",
+      "patterns": [
+        "Qual a empresa com mais ações atualmente",
+        "Qual a empresa com mais ações",
+        "Qual a corretora com mais ações",
+        "Qual a corretora com mais ações atualmente",
+        "Qual a corretora com mais ações no momento",
+        "Me diga a empresa com mais ações"
+      ],
+      "responses": [
+        "A empresa com mais ações é a PETROBRAS com 8268271696 ações.",
+        "A empresa que detêm mais ações é a PETROBRAS com 8268271696 ações."
+      ]
+    },
+    {
+      "tag": "Empresa_Menos_Acoes",
+      "patterns": [
+        "Qual a empresa com menos ações atualmente",
+        "Qual a empresa com menos ações",
+        "Qual a corretora com menos ações",
+        "Qual a corretora com menos ações atualmente",
+        "Qual a corretora com menos ações no momento",
+        "Me diga a empresa com menos ações"
+      ],
+      "responses": [
+        "A empresa com menos ações é a ENGIE BRASIL com 255208461 ações.",
+        "A empresa que detêm menos ações é a ENGIE BRASIL com 255208461 ações."
+      ]
+    },
+    {
+      "tag": "Empresa_Mais_Investidores",
+      "patterns": [
+        "Qual a empresa com mais investidores",
+        "Qual a empresa com mais investidores atualmente",
+        "Qual a empresa com mais investidores",
+        "Qual a corretora com mais investidores",
+        "Qual a corretora com mais investidores atualmente",
+        "Qual a corretora com mais investidores hoje",
+        "Qual a corretora com mais investidores no momento",
+        "Me diga a empresa com mais investidores"
+      ],
+      "responses": [
+        "A empresa com mais investidores é a TIM (TIMS3) com 1488716 investidores.",
+        "A empresa que detêm mais investidores é a TIM (TIMS3) com 1488716 investidores."
+      ]
+    },
+    {
+      "tag": "Empresa_Mais_Investidores_PFisica",
+      "patterns": [
+        "Qual a empresa com mais pessoas físicas investindo",
+        "Qual a empresa com mais pessoas físicas como investidores",
+        "Qual a empresa com mais pessoas fisicas como investidoras",
+        "Qual a empresa com maior número de pessoas fisicas investindo",
+        "Qual a corretora com mais pessoas físicas investindo",
+        "Qual a corretora com mais pessoas físicas investindo atualmente",
+        "Qual a corretora com maior número de pessoas fisicas investindo",
+        "Me diga a empresa com mais pessoas físicas investindo"
+      ],
+      "responses": [
+        "A empresa com mais investidores (Pessoa Física) é a TIM com 1259476 investidores.",
+        "A empresa que detêm mais investidores (Pessoa Física) é a TIM com 1259476 investidores."
+      ]
+    },
+    {
+      "tag": "Empresa_Mais_Investidores_PJuridica",
+      "patterns": [
+        "Qual a empresa com mais pessoas jurídicas investindo atualmente",
+        "Qual a empresa com mais pessoas jurídicas investindo",
+        "Qual a empresa com mais pessoas juridicas como investidores",
+        "Qual a empresa com mais pessoas juridicas como investidoras",
+        "Qual a corretora com mais investidores agora",
+        "Qual a corretora com mais investidores no momento",
+        "Qual a corretora com maior número de pessoas juridicas investindo",
+        "Me diga a empresa com mais pessoas jurídicas investindo"
+      ],
+      "responses": [
+        "A empresa com mais investidores (Pessoa Jurídica) é a TIM com 229157 investidores.",
+        "A empresa que detêm mais investidores (Pessoa Jurídica) é a TIM com 229157 investidores."
+      ]
+    },
+    {
+      "tag": "Empresa_Mais_Investidores_Institucionais",
+      "patterns": [
+        "Qual a empresa com mais investidores institucionais atualmente",
+        "Qual a empresa com mais investidores institucionais",
+        "Qual a empresa com mais investidores institucionais no momento",
+        "Qual a corretora com mais investidores institucionais",
+        "Qual a corretora com mais investidores institucionais atualmente",
+        "Qual a corretora com mais investidores institucionais no momento"
+      ],
+      "responses": [
+        "A empresa com mais investidores institucionais é a PETROBRAS com 2748 investidores.",
+        "A empresa que detêm mais investidores institucionais é a PETROBRAS com 2748 investidores."
+      ]
+    },
+    {
+      "tag": "Todas_Empresas",
+      "patterns": [
+        "Quais são as empresas listadas",
+        "Me diga todas as empresas",
+        "Quais são as empresas disponíveis",
+        "Quais são as empresas disponíveis para investir",
+        "Quais são as corretoras disponíveis",
+        "Quais são as corretoras disponíveis para investir",
+        "Liste todas as corretoras",
+        "Liste todas as empresas"
+      ],
+      "responses": [
+        "\nAqui está a lista de todas as empresas no Banco de Dados\n\n- AMBEV S/A\n- AZUL\n- BRASIL\n- BRADESCO\n- BBSEGURIDADE\n- BRASKEM\n- CIELO\n- COPEL\n- ENGIE BRASIL\n- ELETROBRAS\n- HAPVIDA\n- IGUATEMI S.A\n- ITAUUNIBANCO\n- MAGAZ LUIZA\n- PETROBRAS\n- PETZ\n- TAESA\n- TIM\n- VALE\n- VAMOS"
+      ]
+    },
+    {
+      "tag": "Empresa_Mais_Capital_Social",
+      "patterns": [
+        "Qual a empresa com mais capital social atualmente",
+        "Qual a empresa com mais capital social",
+        "Qual a corretora com mais capital social",
+        "Qual a corretora com mais capital social atualmente",
+        "Me diga a empresa com mais capital social",
+        "Me diga a corretora com mais capital social",
+        "Me diga a empresa com maior capital social",
+        "Me diga a corretora com maior capital social"
+      ],
+      "responses": [
+        "A empresa com mais capital social é a AMBEV S/A com R$ 15.753.833.284,00",
+        "A empresa que detêm mais capital social é a AMBEV S/A com R$ 15.753.833.284,00"
+      ]
+    },
+    {
+      "tag": "Empresa_Mais_Patrimonio_Liquido",
+      "patterns": [
+        "Qual a empresa com mais patrimônio líquido atualmente",
+        "Qual a empresa com mais patrimônio líquido",
+        "Qual a corretora com mais patrimônio líquido",
+        "Me diga a empresa com mais patrimônio líquido",
+        "Me diga a corretora com mais patrimônio líquido",
+        "Me diga a empresa com maior patrimônio líquido",
+        "Me diga a corretora com maior patrimônio líquido",
+        "Me diga a empresa com maior patrimonio líquido",
+        "corretora com maior patrimonio liquido",
+        "corretora com mais patrimonio liquido"
+      ],
+      "responses": [
+        "A empresa com mais patrimônio líquido é a PETROBRAS com R$ 382.340.000,00",
+        "A corretora que detêm o maior patrimônio líquido é a PETROBRAS com R$ 382.340.000,00"
+      ]
+    },
+    {
+      "tag": "TOP3_Empresa_Maior_Evolucao_Resultado_Bruto",
+      "patterns": [
+        "Quais as 3 empresas com maior evolução no resultado bruto",
+        "Quais as 3 empresas com maior evolução no resultado bruto atualmente",
+        "Quais as 3 empresas com maior evolução no resultado bruto nos últimos intervalos de tempo",
+        "Quais as 3 empresas com maior evolução no resultado bruto nos ultimos intervalos de tempo",
+        "Quais as 3 corretoras com maior evolução no resultado bruto nos últimos intervalos de tempo",
+        "Quais as 3 corretoras com maior evolução no resultado bruto",
+        "Quais as 3 corretoras com maior evolução no resultado bruto atualmente",
+        "Quais as 3 corretoras com maior evolução no resultado bruto nos últimos intervalos de tempo",
+        "Quais as 3 empresas com maior evolução no resultado bruto nos ultimos intervalos de tempo"
+      ],
+      "responses": [
+        "\nAqui Estão 3 empresas com os melhores números de crescimento do Resultado Bruto\n\n1º - A empresa BRASIL (BBAS11) teve um crescimento de R$ 14.402.164,00 no resultado bruto.\n2º - A empresa ITAUUNIBANCO (ITUB3) teve um crescimento de R$ 9.984.000,00 no resultado bruto.\n3º - A empresa TIM (TIMS3) teve um crescimento de R$ 1.462.636,00 no resultado bruto."
+      ]
+    },
+    {
+      "tag": "TOP5_Empresa_Maior_Evolucao_Patrimonio_Liquido",
+      "patterns": [
+        "Quais as 5 empresas com maior evolução no patrimônio líquido",
+        "Quais as 5 empresas com maior evolução no patrimônio líquido atualmente",
+        "Quais as 5 empresas com maior evolução no patrimônio líquido nos últimos intervalos de tempo",
+        "Quais as 5 empresas com maior evolução no patrimônio liquido nos ultimos intervalos de tempo",
+        "Quais as 5 corretoras com maior evolução no patrimônio líquido nos últimos intervalos de tempo",
+        "Quais as 5 corretoras com maior evolução no patrimônio líquido",
+        "Me diga as 5 empresas com maior evolução no patrimônio líquido",
+        "Me diga as 5 corretoras com maior evolução no patrimônio líquido",
+        "Me diga as 5 empresas com maior evolução no patrimônio liquido atualmente",
+        "Me diga as 5 corretoras com maior evolução no patrimônio liquido atualmente",
+        "Me diga as 5 empresas com maior crescimento no patrimonio liquido hoje",
+        "Me diga as empresas que tiveram a melhor evolução no patrimonio liquido",
+        "Me diga as corretoras que tiveram a melhor evolução no patrimonio liquido",
+        "Me diga as empresas que tiveram o melhor crescimento no patrimonio liquido",
+        "Me diga as corretoras que tiveram o melhor crescimento no patrimonio liquido"
+      ],
+      "responses": [
+        "\nAqui Estão 5 empresas com os melhores números de crescimento do Patrimônio Líquido\n\n1º - A empresa ITAUUNIBANCO (ITUB3) teve um crescimento de R$ 21.943.000,00 no patrimônio líquido.\n2º - A empresa PETROBRAS (PETR3) teve um crescimento de R$ 17.955.000,00 no patrimônio líquido.\n3º - A empresa BRASIL (BBAS11) teve um crescimento de R$ 9.798.907,00 no patrimônio líquido.\n4º - A empresa BRADESCO (BBDC3) teve um crescimento de R$ 6.919.226,00 no patrimônio líquido.\n5º - A empresa VALE (VALE3) teve um crescimento de R$ 3.431.000,00 no patrimônio líquido."
+      ]
+    },
+    {
+      "tag": "AMBEV S/A",
+      "patterns": [
+        "Qual a situação da empresa AMBEV S/A?",
+        "Como está a empresa AMBEV S/A?",
+        "Me fale sobre a empresa AMBEV S/A",
+        "Fale da AMBEV S/A",
+        "Qual a situação da empresa AMBEV S/A",
+        "Como está a empresa ambev s/a",
+        "Me fale sobre a empresa ambev s/a",
+        "Fale da ambev s/a",
+        "Qual a descrição do Ativo AMBEV S/A",
+        "Como está o ativo AMBEV S/A",
+        "Me fale sobre o ativo AMBEV S/A",
+        "Fale do ativo AMBEV S/A",
+        "Qual a descrição do Ativo ambev s/a",
+        "Como está o ativo ambev s/a"
+      ],
+      "responses": [
+        "\nAqui estão as informações sobre a empresa atualizado na data: 14/03/2024\n                               \nAMBEV S/A (ABEV3):\n                               \n\t- CNPJ: 07.526.557/0001-00\n                               \n\t- Site: http://ri.ambev.com.br\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 74.964.592,00 (Atual)\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 80.203.916,00 (Anterior)\n                               \n\t- Ativo Total: R$ 132.644.133,00 (Atual)\n                               \n\t- Ativo Total: R$ 137.958.083,00 (Anterior)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 14.960.459,00 (Atual)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 14.891.291,00 (Anterior)\n                               \n\t- Total Ações: 4394245879\n                               \n\t- Total Investidores: 310643\n                               \n\t- Patrimônio Líquido: R$ 80.143.802,00\n                               \n\t- Composição do Capital: R$ 15.753.833.284,00\n                               "
+      ]
+    },
+    {
+      "tag": "AZUL",
+      "patterns": [
+        "Qual a situação da empresa AZUL?",
+        "Como está a empresa AZUL?",
+        "Me fale sobre a empresa AZUL",
+        "Fale da AZUL",
+        "Qual a situação da empresa AZUL",
+        "Como está a empresa azul",
+        "Me fale sobre a empresa azul",
+        "Fale da azul",
+        "Qual a descrição do Ativo AZUL",
+        "Como está o ativo AZUL",
+        "Me fale sobre o ativo AZUL",
+        "Fale do ativo AZUL",
+        "Qual a descrição do Ativo azul",
+        "Como está o ativo azul"
+      ],
+      "responses": [
+        "\nAqui estão as informações sobre a empresa atualizado na data: 14/03/2024\n                               \nAZUL (AZUL4):\n                               \n\t- CNPJ: 09.305.994/0001-29\n                               \n\t- Site: www.voeazul.com.br\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 11.234.848,00 (Atual)\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 10.932.160,00 (Anterior)\n                               \n\t- Ativo Total: R$ 19.605.095,00 (Atual)\n                               \n\t- Ativo Total: R$ 18.721.293,00 (Anterior)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 2.327.619,00 (Atual)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 1.828.420,00 (Anterior)\n                               \n\t- Total Ações: 634204716\n                               \n\t- Total Investidores: 134204\n                               \n\t- Patrimônio Líquido: R$ 21.286.126,00\n                               \n\t- Composição do Capital: R$ 1.264.712.854,00\n                               "
+      ]
+    },
+    {
+      "tag": "BRASIL",
+      "patterns": [
+        "Qual a situação da empresa BRASIL?",
+        "Como está a empresa BRASIL?",
+        "Me fale sobre a empresa BRASIL",
+        "Fale da BRASIL",
+        "Qual a situação da empresa BRASIL",
+        "Como está a empresa brasil",
+        "Me fale sobre a empresa brasil",
+        "Fale da brasil",
+        "Qual a descrição do Ativo BRASIL",
+        "Como está o ativo BRASIL",
+        "Me fale sobre o ativo BRASIL",
+        "Fale do ativo BRASIL",
+        "Qual a descrição do Ativo brasil",
+        "Como está o ativo brasil"
+      ],
+      "responses": [
+        "\nAqui estão as informações sobre a empresa atualizado na data: 14/03/2024\n                               \nBRASIL (BBAS11):\n                               \n\t- CNPJ: 00.000.000/0001-91\n                               \n\t- Site: www.bb.com.br (http://www.bb.com.br)\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 24.919.935,00 (Atual)\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 24.231.113,00 (Anterior)\n                               \n\t- Ativo Total: R$ 2.153.878.452,00 (Atual)\n                               \n\t- Ativo Total: R$ 2.008.168.606,00 (Anterior)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 33.614.852,00 (Atual)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 30.897.625,00 (Anterior)\n                               \n\t- Total Ações: 1420731069\n                               \n\t- Total Investidores: 870412\n                               \n\t- Patrimônio Líquido: R$ 163.638.226,00\n                               \n\t- Composição do Capital: R$ 2.865.417.020,00\n                               "
+      ]
+    },
+    {
+      "tag": "BRADESCO",
+      "patterns": [
+        "Qual a situação da empresa BRADESCO?",
+        "Como está a empresa BRADESCO?",
+        "Me fale sobre a empresa BRADESCO",
+        "Fale da BRADESCO",
+        "Qual a situação da empresa BRADESCO",
+        "Como está a empresa bradesco",
+        "Me fale sobre a empresa bradesco",
+        "Fale da bradesco",
+        "Qual a descrição do Ativo BRADESCO",
+        "Como está o ativo BRADESCO",
+        "Me fale sobre o ativo BRADESCO",
+        "Fale do ativo BRADESCO",
+        "Qual a descrição do Ativo bradesco",
+        "Como está o ativo bradesco"
+      ],
+      "responses": [
+        "\nAqui estão as informações sobre a empresa atualizado na data: 14/03/2024\n                               \nBRADESCO (BBDC3):\n                               \n\t- CNPJ: 60.746.948/0001-12\n                               \n\t- Site: www.bradesco.com.br\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 33.225.155,00 (Atual)\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 30.770.935,00 (Anterior)\n                               \n\t- Ativo Total: R$ 1.927.523.249,00 (Atual)\n                               \n\t- Ativo Total: R$ 1.792.288.792,00 (Anterior)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 15.121.802,00 (Atual)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 20.732.172,00 (Anterior)\n                               \n\t- Total Ações: 6647244393\n                               \n\t- Total Investidores: 834463\n                               \n\t- Patrimônio Líquido: R$ 161.182.449,00\n                               \n\t- Composição do Capital: R$ 10.642.170.228,00\n                               "
+      ]
+    },
+    {
+      "tag": "BBSEGURIDADE",
+      "patterns": [
+        "Qual a situação da empresa BBSEGURIDADE?",
+        "Como está a empresa BBSEGURIDADE?",
+        "Me fale sobre a empresa BBSEGURIDADE",
+        "Fale da BBSEGURIDADE",
+        "Qual a situação da empresa BBSEGURIDADE",
+        "Como está a empresa bbseguridade",
+        "Me fale sobre a empresa bbseguridade",
+        "Fale da bbseguridade",
+        "Qual a descrição do Ativo BBSEGURIDADE",
+        "Como está o ativo BBSEGURIDADE",
+        "Me fale sobre o ativo BBSEGURIDADE",
+        "Fale do ativo BBSEGURIDADE",
+        "Qual a descrição do Ativo bbseguridade",
+        "Como está o ativo bbseguridade"
+      ],
+      "responses": [
+        "\nAqui estão as informações sobre a empresa atualizado na data: 14/03/2024\n                               \nBBSEGURIDADE (BBSE3):\n                               \n\t- CNPJ: 17.344.597/0001-94\n                               \n\t- Site: www.bbseguridaderi.com.br\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 9.335.492,00 (Atual)\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 7.961.460,00 (Anterior)\n                               \n\t- Ativo Total: R$ 18.272.622,00 (Atual)\n                               \n\t- Ativo Total: R$ 16.570.461,00 (Anterior)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 7.947.203,00 (Atual)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 6.196.415,00 (Anterior)\n                               \n\t- Total Ações: 671682536\n                               \n\t- Total Investidores: 355412\n                               \n\t- Patrimônio Líquido: R$ 9.816.482,00\n                               \n\t- Composição do Capital: R$ 2.000.000.000,00\n                               "
+      ]
+    },
+    {
+      "tag": "BRASKEM",
+      "patterns": [
+        "Qual a situação da empresa BRASKEM?",
+        "Como está a empresa BRASKEM?",
+        "Me fale sobre a empresa BRASKEM",
+        "Fale da BRASKEM",
+        "Qual a situação da empresa BRASKEM",
+        "Como está a empresa braskem",
+        "Me fale sobre a empresa braskem",
+        "Fale da braskem",
+        "Qual a descrição do Ativo BRASKEM",
+        "Como está o ativo BRASKEM",
+        "Me fale sobre o ativo BRASKEM",
+        "Fale do ativo BRASKEM",
+        "Qual a descrição do Ativo braskem",
+        "Como está o ativo braskem"
+      ],
+      "responses": [
+        "\nAqui estão as informações sobre a empresa atualizado na data: 14/03/2024\n                               \nBRASKEM (BRKM3):\n                               \n\t- CNPJ: 42.150.391/0001-70\n                               \n\t- Site: www.braskem.com.br\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 45.391.089,00 (Atual)\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 44.887.449,00 (Anterior)\n                               \n\t- Ativo Total: R$ 92.015.333,00 (Atual)\n                               \n\t- Ativo Total: R$ 88.048.858,00 (Anterior)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 3.138.992,00 (Atual)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 1.062.888,00 (Anterior)\n                               \n\t- Total Ações: 278598353\n                               \n\t- Total Investidores: 53624\n                               \n\t- Patrimônio Líquido: R$ 4.378.023,00\n                               \n\t- Composição do Capital: R$ 797.207.834,00\n                               "
+      ]
+    },
+    {
+      "tag": "CIELO",
+      "patterns": [
+        "Qual a situação da empresa CIELO?",
+        "Como está a empresa CIELO?",
+        "Me fale sobre a empresa CIELO",
+        "Fale da CIELO",
+        "Qual a situação da empresa CIELO",
+        "Como está a empresa cielo",
+        "Me fale sobre a empresa cielo",
+        "Fale da cielo",
+        "Qual a descrição do Ativo CIELO",
+        "Como está o ativo CIELO",
+        "Me fale sobre o ativo CIELO",
+        "Fale do ativo CIELO",
+        "Qual a descrição do Ativo cielo",
+        "Como está o ativo cielo"
+      ],
+      "responses": [
+        "\nAqui estão as informações sobre a empresa atualizado na data: 14/03/2024\n                               \nCIELO (CIEL3):\n                               \n\t- CNPJ: 01.027.058/0001-91\n                               \n\t- Site: www.cielo.com.br (http://www.cielo.com.br)\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 9.647.801,00 (Atual)\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 10.078.007,00 (Anterior)\n                               \n\t- Ativo Total: R$ 107.782.200,00 (Atual)\n                               \n\t- Ativo Total: R$ 109.784.818,00 (Anterior)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 2.468.466,00 (Atual)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 1.714.680,00 (Anterior)\n                               \n\t- Total Ações: 1095401258\n                               \n\t- Total Investidores: 186550\n                               \n\t- Patrimônio Líquido: R$ 14.984.852,00\n                               \n\t- Composição do Capital: R$ 2.716.815.061,00\n                               "
+      ]
+    },
+    {
+      "tag": "COPEL",
+      "patterns": [
+        "Qual a situação da empresa COPEL?",
+        "Como está a empresa COPEL?",
+        "Me fale sobre a empresa COPEL",
+        "Fale da COPEL",
+        "Qual a situação da empresa COPEL",
+        "Como está a empresa copel",
+        "Me fale sobre a empresa copel",
+        "Fale da copel",
+        "Qual a descrição do Ativo COPEL",
+        "Como está o ativo COPEL",
+        "Me fale sobre o ativo COPEL",
+        "Fale do ativo COPEL",
+        "Qual a descrição do Ativo copel",
+        "Como está o ativo copel"
+      ],
+      "responses": [
+        "\nAqui estão as informações sobre a empresa atualizado na data: 14/03/2024\n                               \nCOPEL (CPLE3):\n                               \n\t- CNPJ: 76.483.817/0001-20\n                               \n\t- Site: http://ri.copel.com (http://http://ri.copel.com)\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 25.507.307,00 (Atual)\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 23.672.926,00 (Anterior)\n                               \n\t- Ativo Total: R$ 55.819.074,00 (Atual)\n                               \n\t- Ativo Total: R$ 49.703.700,00 (Anterior)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 2.327.168,00 (Atual)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 1.149.321,00 (Anterior)\n                               \n\t- Total Ações: 1886267770\n                               \n\t- Total Investidores: 264709\n                               \n\t- Patrimônio Líquido: R$ 24.191.667,00\n                               \n\t- Composição do Capital: R$ 2.982.810.591,00\n                               "
+      ]
+    },
+    {
+      "tag": "ENGIE BRASIL",
+      "patterns": [
+        "Qual a situação da empresa ENGIE BRASIL?",
+        "Como está a empresa ENGIE BRASIL?",
+        "Me fale sobre a empresa ENGIE BRASIL",
+        "Fale da ENGIE BRASIL",
+        "Qual a situação da empresa ENGIE BRASIL",
+        "Como está a empresa engie brasil",
+        "Me fale sobre a empresa engie brasil",
+        "Fale da engie brasil",
+        "Qual a descrição do Ativo ENGIE BRASIL",
+        "Como está o ativo ENGIE BRASIL",
+        "Me fale sobre o ativo ENGIE BRASIL",
+        "Fale do ativo ENGIE BRASIL",
+        "Qual a descrição do Ativo engie brasil",
+        "Como está o ativo engie brasil"
+      ],
+      "responses": [
+        "\nAqui estão as informações sobre a empresa atualizado na data: 14/03/2024\n                               \nENGIE BRASIL (EGIE3):\n                               \n\t- CNPJ: 02.474.103/0001-19\n                               \n\t- Site: www.engie.com.br\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 23.368.245,00 (Atual)\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 21.338.326,00 (Anterior)\n                               \n\t- Ativo Total: R$ 42.224.473,00 (Atual)\n                               \n\t- Ativo Total: R$ 38.186.752,00 (Anterior)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 3.429.060,00 (Atual)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 2.664.568,00 (Anterior)\n                               \n\t- Total Ações: 255208461\n                               \n\t- Total Investidores: 262336\n                               \n\t- Patrimônio Líquido: R$ 9.816.210,00\n                               \n\t- Composição do Capital: R$ 815.927.740,00\n                               "
+      ]
+    },
+    {
+      "tag": "ELETROBRAS",
+      "patterns": [
+        "Qual a situação da empresa ELETROBRAS?",
+        "Como está a empresa ELETROBRAS?",
+        "Me fale sobre a empresa ELETROBRAS",
+        "Fale da ELETROBRAS",
+        "Qual a situação da empresa ELETROBRAS",
+        "Como está a empresa eletrobras",
+        "Me fale sobre a empresa eletrobras",
+        "Fale da eletrobras",
+        "Qual a descrição do Ativo ELETROBRAS",
+        "Como está o ativo ELETROBRAS",
+        "Me fale sobre o ativo ELETROBRAS",
+        "Fale do ativo ELETROBRAS",
+        "Qual a descrição do Ativo eletrobras",
+        "Como está o ativo eletrobras"
+      ],
+      "responses": [
+        "\nAqui estão as informações sobre a empresa atualizado na data: 14/03/2024\n                               \nELETROBRAS (ELET3):\n                               \n\t- CNPJ: 00.001.180/0001-26\n                               \n\t- Site: www.eletrobras.com\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 148.876.345,00 (Atual)\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 148.705.808,00 (Anterior)\n                               \n\t- Ativo Total: R$ 267.057.654,00 (Atual)\n                               \n\t- Ativo Total: R$ 270.217.462,00 (Anterior)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 4.394.861,00 (Atual)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 3.638.382,00 (Anterior)\n                               \n\t- Total Ações: 2289516031\n                               \n\t- Total Investidores: 145747\n                               \n\t- Patrimônio Líquido: R$ 112.464.644,00\n                               \n\t- Composição do Capital: R$ 2.307.099.812,00\n                               "
+      ]
+    },
+    {
+      "tag": "HAPVIDA",
+      "patterns": [
+        "Qual a situação da empresa HAPVIDA?",
+        "Como está a empresa HAPVIDA?",
+        "Me fale sobre a empresa HAPVIDA",
+        "Fale da HAPVIDA",
+        "Qual a situação da empresa HAPVIDA",
+        "Como está a empresa hapvida",
+        "Me fale sobre a empresa hapvida",
+        "Fale da hapvida",
+        "Qual a descrição do Ativo HAPVIDA",
+        "Como está o ativo HAPVIDA",
+        "Me fale sobre o ativo HAPVIDA",
+        "Fale do ativo HAPVIDA",
+        "Qual a descrição do Ativo hapvida",
+        "Como está o ativo hapvida"
+      ],
+      "responses": [
+        "\nAqui estão as informações sobre a empresa atualizado na data: 14/03/2024\n                               \nHAPVIDA (HAPV3):\n                               \n\t- CNPJ: 05.197.443/0001-38\n                               \n\t- Site: www.hapvida.com.br\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 58.208.836,00 (Atual)\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 59.061.848,00 (Anterior)\n                               \n\t- Ativo Total: R$ 74.771.863,00 (Atual)\n                               \n\t- Ativo Total: R$ 73.213.730,00 (Anterior)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 709.393,00 (Atual)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 459.168,00 (Anterior)\n                               \n\t- Total Ações: 4455957762\n                               \n\t- Total Investidores: 50636\n                               \n\t- Patrimônio Líquido: R$ 49.123.078,00\n                               \n\t- Composição do Capital: R$ 7.539.463.263,00\n                               "
+      ]
+    },
+    {
+      "tag": "IGUATEMI S.A",
+      "patterns": [
+        "Qual a situação da empresa IGUATEMI S.A?",
+        "Como está a empresa IGUATEMI S.A?",
+        "Me fale sobre a empresa IGUATEMI S.A",
+        "Fale da IGUATEMI S.A",
+        "Qual a situação da empresa IGUATEMI S.A",
+        "Como está a empresa iguatemi s.a",
+        "Me fale sobre a empresa iguatemi s.a",
+        "Fale da iguatemi s.a",
+        "Qual a descrição do Ativo IGUATEMI S.A",
+        "Como está o ativo IGUATEMI S.A",
+        "Me fale sobre o ativo IGUATEMI S.A",
+        "Fale do ativo IGUATEMI S.A",
+        "Qual a descrição do Ativo iguatemi s.a",
+        "Como está o ativo iguatemi s.a"
+      ],
+      "responses": [
+        "\nAqui estão as informações sobre a empresa atualizado na data: 14/03/2024\n                               \nIGUATEMI S.A (IGTI11):\n                               \n\t- CNPJ: 60.543.816/0001-93\n                               \n\t- Site: ri.iguatemi.com.br\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 5.539.905,00 (Atual)\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 5.493.036,00 (Anterior)\n                               \n\t- Ativo Total: R$ 7.791.679,00 (Atual)\n                               \n\t- Ativo Total: R$ 8.048.137,00 (Anterior)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 308.934,00 (Atual)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 12.821,00 (Anterior)\n                               \n\t- Total Ações: 681067118\n                               \n\t- Total Investidores: 57496\n                               \n\t- Patrimônio Líquido: R$ 4.177.518,00\n                               \n\t- Composição do Capital: R$ 1.224.809.778,00\n                               "
+      ]
+    },
+    {
+      "tag": "ITAUUNIBANCO",
+      "patterns": [
+        "Qual a situação da empresa ITAUUNIBANCO?",
+        "Como está a empresa ITAUUNIBANCO?",
+        "Me fale sobre a empresa ITAUUNIBANCO",
+        "Fale da ITAUUNIBANCO",
+        "Qual a situação da empresa ITAUUNIBANCO",
+        "Como está a empresa itauunibanco",
+        "Me fale sobre a empresa itauunibanco",
+        "Fale da itauunibanco",
+        "Qual a descrição do Ativo ITAUUNIBANCO",
+        "Como está o ativo ITAUUNIBANCO",
+        "Me fale sobre o ativo ITAUUNIBANCO",
+        "Fale do ativo ITAUUNIBANCO",
+        "Qual a descrição do Ativo itauunibanco",
+        "Como está o ativo itauunibanco"
+      ],
+      "responses": [
+        "\nAqui estão as informações sobre a empresa atualizado na data: 14/03/2024\n                               \nITAUUNIBANCO (ITUB3):\n                               \n\t- CNPJ: 60.872.504/0001-23\n                               \n\t- Site: www.itau-unibanco.com.br/relacoes-com-\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 32.499.000,00 (Atual)\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 30.881.000,00 (Anterior)\n                               \n\t- Ativo Total: R$ 2.543.100.000,00 (Atual)\n                               \n\t- Ativo Total: R$ 2.321.066.000,00 (Anterior)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 33.877.000,00 (Atual)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 30.242.000,00 (Anterior)\n                               \n\t- Total Ações: 5185506430\n                               \n\t- Total Investidores: 478374\n                               \n\t- Patrimônio Líquido: R$ 199.050.000,00\n                               \n\t- Composição do Capital: R$ 9.804.135.348,00\n                               "
+      ]
+    },
+    {
+      "tag": "MAGAZ LUIZA",
+      "patterns": [
+        "Qual a situação da empresa MAGAZ LUIZA?",
+        "Como está a empresa MAGAZ LUIZA?",
+        "Me fale sobre a empresa MAGAZ LUIZA",
+        "Fale da MAGAZ LUIZA",
+        "Qual a situação da empresa MAGAZ LUIZA",
+        "Como está a empresa magaz luiza",
+        "Me fale sobre a empresa magaz luiza",
+        "Fale da magaz luiza",
+        "Qual a descrição do Ativo MAGAZ LUIZA",
+        "Como está o ativo MAGAZ LUIZA",
+        "Me fale sobre o ativo MAGAZ LUIZA",
+        "Fale do ativo MAGAZ LUIZA",
+        "Qual a descrição do Ativo magaz luiza",
+        "Como está o ativo magaz luiza"
+      ],
+      "responses": [
+        "\nAqui estão as informações sobre a empresa atualizado na data: 14/03/2024\n                               \nMAGAZ LUIZA (MGLU3):\n                               \n\t- CNPJ: 47.960.950/0001-21\n                               \n\t- Site: www.magazineluiza.com.br\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 9.998.927,00 (Atual)\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 10.233.319,00 (Anterior)\n                               \n\t- Ativo Total: R$ 36.918.960,00 (Atual)\n                               \n\t- Ativo Total: R$ 38.098.122,00 (Anterior)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 269.183,00 (Atual)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 665.131,00 (Anterior)\n                               \n\t- Total Ações: 2874188573\n                               \n\t- Total Investidores: 582990\n                               \n\t- Patrimônio Líquido: R$ 9.532.654,00\n                               \n\t- Composição do Capital: R$ 6.748.926.848,00\n                               "
+      ]
+    },
+    {
+      "tag": "PETROBRAS",
+      "patterns": [
+        "Qual a situação da empresa PETROBRAS?",
+        "Como está a empresa PETROBRAS?",
+        "Me fale sobre a empresa PETROBRAS",
+        "Fale da PETROBRAS",
+        "Qual a situação da empresa PETROBRAS",
+        "Como está a empresa petrobras",
+        "Me fale sobre a empresa petrobras",
+        "Fale da petrobras",
+        "Qual a descrição do Ativo PETROBRAS",
+        "Como está o ativo PETROBRAS",
+        "Me fale sobre o ativo PETROBRAS",
+        "Fale do ativo PETROBRAS",
+        "Qual a descrição do Ativo petrobras",
+        "Como está o ativo petrobras"
+      ],
+      "responses": [
+        "\nAqui estão as informações sobre a empresa atualizado na data: 14/03/2024\n                               \nPETROBRAS (PETR3):\n                               \n\t- CNPJ: 33.000.167/0001-01\n                               \n\t- Site: www.petrobras.com.br\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 764.074.000,00 (Atual)\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 702.935.000,00 (Anterior)\n                               \n\t- Ativo Total: R$ 1.050.888.000,00 (Atual)\n                               \n\t- Ativo Total: R$ 976.709.000,00 (Anterior)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 125.166.000,00 (Atual)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 189.005.000,00 (Anterior)\n                               \n\t- Total Ações: 8268271696\n                               \n\t- Total Investidores: 867547\n                               \n\t- Patrimônio Líquido: R$ 382.340.000,00\n                               \n\t- Composição do Capital: R$ 13.044.496.930,00\n                               "
+      ]
+    },
+    {
+      "tag": "PETZ",
+      "patterns": [
+        "Qual a situação da empresa PETZ?",
+        "Como está a empresa PETZ?",
+        "Me fale sobre a empresa PETZ",
+        "Fale da PETZ",
+        "Qual a situação da empresa PETZ",
+        "Como está a empresa petz",
+        "Me fale sobre a empresa petz",
+        "Fale da petz",
+        "Qual a descrição do Ativo PETZ",
+        "Como está o ativo PETZ",
+        "Me fale sobre o ativo PETZ",
+        "Fale do ativo PETZ",
+        "Qual a descrição do Ativo petz",
+        "Como está o ativo petz"
+      ],
+      "responses": [
+        "\nAqui estão as informações sobre a empresa atualizado na data: 14/03/2024\n                               \nPETZ (PETZ3):\n                               \n\t- CNPJ: 18.328.118/0001-09\n                               \n\t- Site: www.petz.com.br (http://www.petz.com.br)\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 2.465.776,00 (Atual)\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 2.449.887,00 (Anterior)\n                               \n\t- Ativo Total: R$ 3.995.411,00 (Atual)\n                               \n\t- Ativo Total: R$ 3.647.129,00 (Anterior)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 16.349,00 (Atual)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 50.590,00 (Anterior)\n                               \n\t- Total Ações: 335865260\n                               \n\t- Total Investidores: 95331\n                               \n\t- Patrimônio Líquido: R$ 1.808.893,00\n                               \n\t- Composição do Capital: R$ 462.523.502,00\n                               "
+      ]
+    },
+    {
+      "tag": "TAESA",
+      "patterns": [
+        "Qual a situação da empresa TAESA?",
+        "Como está a empresa TAESA?",
+        "Me fale sobre a empresa TAESA",
+        "Fale da TAESA",
+        "Qual a situação da empresa TAESA",
+        "Como está a empresa taesa",
+        "Me fale sobre a empresa taesa",
+        "Fale da taesa",
+        "Qual a descrição do Ativo TAESA",
+        "Como está o ativo TAESA",
+        "Me fale sobre o ativo TAESA",
+        "Fale do ativo TAESA",
+        "Qual a descrição do Ativo taesa",
+        "Como está o ativo taesa"
+      ],
+      "responses": [
+        "\nAqui estão as informações sobre a empresa atualizado na data: 14/03/2024\n                               \nTAESA (TAEE11):\n                               \n\t- CNPJ: 07.859.971/0001-30\n                               \n\t- Site: www.taesa.com.br\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 3.889.620,00 (Atual)\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 3.951.961,00 (Anterior)\n                               \n\t- Ativo Total: R$ 19.448.656,00 (Atual)\n                               \n\t- Ativo Total: R$ 17.309.081,00 (Anterior)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 1.367.834,00 (Atual)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 1.449.215,00 (Anterior)\n                               \n\t- Total Ações: 655704742\n                               \n\t- Total Investidores: 394546\n                               \n\t- Patrimônio Líquido: R$ 6.679.310,00\n                               \n\t- Composição do Capital: R$ 1.033.496.721,00\n                               "
+      ]
+    },
+    {
+      "tag": "TIM",
+      "patterns": [
+        "Qual a situação da empresa TIM?",
+        "Como está a empresa TIM?",
+        "Me fale sobre a empresa TIM",
+        "Fale da TIM",
+        "Qual a situação da empresa TIM",
+        "Como está a empresa tim",
+        "Me fale sobre a empresa tim",
+        "Fale da tim",
+        "Qual a descrição do Ativo TIM",
+        "Como está o ativo TIM",
+        "Me fale sobre o ativo TIM",
+        "Fale do ativo TIM",
+        "Qual a descrição do Ativo tim",
+        "Como está o ativo tim"
+      ],
+      "responses": [
+        "\nAqui estão as informações sobre a empresa atualizado na data: 14/03/2024\n                               \nTIM (TIMS3):\n                               \n\t- CNPJ: 02.421.421/0001-11\n                               \n\t- Site: Não encontrado\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 39.487.668,00 (Atual)\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 40.617.816,00 (Anterior)\n                               \n\t- Ativo Total: R$ 55.260.156,00 (Atual)\n                               \n\t- Ativo Total: R$ 56.408.367,00 (Anterior)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 2.837.422,00 (Atual)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 1.670.755,00 (Anterior)\n                               \n\t- Total Ações: 808436195\n                               \n\t- Total Investidores: 1488716\n                               \n\t- Patrimônio Líquido: R$ 26.015.940,00\n                               \n\t- Composição do Capital: R$ 2.420.804.398,00\n                               "
+      ]
+    },
+    {
+      "tag": "VALE",
+      "patterns": [
+        "Qual a situação da empresa VALE?",
+        "Como está a empresa VALE?",
+        "Me fale sobre a empresa VALE",
+        "Fale da VALE",
+        "Qual a situação da empresa VALE",
+        "Como está a empresa vale",
+        "Me fale sobre a empresa vale",
+        "Fale da vale",
+        "Qual a descrição do Ativo VALE",
+        "Como está o ativo VALE",
+        "Me fale sobre o ativo VALE",
+        "Fale do ativo VALE",
+        "Qual a descrição do Ativo vale",
+        "Como está o ativo vale"
+      ],
+      "responses": [
+        "\nAqui estão as informações sobre a empresa atualizado na data: 14/03/2024\n                               \nVALE (VALE3):\n                               \n\t- CNPJ: 33.592.510/0001-54\n                               \n\t- Site: Não encontrado\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 299.672.000,00 (Atual)\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 297.274.000,00 (Anterior)\n                               \n\t- Ativo Total: R$ 455.984.000,00 (Atual)\n                               \n\t- Ativo Total: R$ 453.387.000,00 (Anterior)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 40.554.000,00 (Atual)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 96.337.000,00 (Anterior)\n                               \n\t- Total Ações: 4448529763\n                               \n\t- Total Investidores: 527087\n                               \n\t- Patrimônio Líquido: R$ 198.325.000,00\n                               \n\t- Composição do Capital: R$ 4.539.007.580,00\n                               "
+      ]
+    },
+    {
+      "tag": "VAMOS",
+      "patterns": [
+        "Qual a situação da empresa VAMOS?",
+        "Como está a empresa VAMOS?",
+        "Me fale sobre a empresa VAMOS",
+        "Fale da VAMOS",
+        "Qual a situação da empresa VAMOS",
+        "Como está a empresa vamos",
+        "Me fale sobre a empresa vamos",
+        "Fale da vamos",
+        "Qual a descrição do Ativo VAMOS",
+        "Como está o ativo VAMOS",
+        "Me fale sobre o ativo VAMOS",
+        "Fale do ativo VAMOS",
+        "Qual a descrição do Ativo vamos",
+        "Como está o ativo vamos"
+      ],
+      "responses": [
+        "\nAqui estão as informações sobre a empresa atualizado na data: 14/03/2024\n                               \nVAMOS (VAMO3):\n                               \n\t- CNPJ: 23.373.000/0001-32\n                               \n\t- Site: http://www.grupovamos.com.br/\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 13.271.083,00 (Atual)\n                               \n\t- Ativo Imobilizado, Investimentos e intangível: R$ 12.250.835,00 (Anterior)\n                               \n\t- Ativo Total: R$ 19.219.164,00 (Atual)\n                               \n\t- Ativo Total: R$ 16.675.416,00 (Anterior)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 391.527,00 (Atual)\n                               \n\t- Lucro(Prejuízo) do Período: R$ 414.354,00 (Anterior)\n                               \n\t- Total Ações: 314724970\n                               \n\t- Total Investidores: 1715\n                               \n\t- Patrimônio Líquido: R$ 4.878.781,00\n                               \n\t- Composição do Capital: R$ 1.104.324.569,00\n                               "
+      ]
+    }
+  ]
+}
