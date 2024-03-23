@@ -76,6 +76,9 @@ Após o processo de treinamento e preparação, o ChatBot financeiro está pront
 ![image](https://github.com/JorgeVitor30/DESAFIO-NUVEN-IA/assets/103287884/17122dbd-6e38-412f-afb8-188dbe0526bf)
 
 
+## Exemplo de interação:
+![image](https://github.com/JorgeVitor30/DESAFIO-NUVEN-IA/assets/103287884/d7829709-3539-47ac-b9d6-aec4380acedf)
+
 
 
 
